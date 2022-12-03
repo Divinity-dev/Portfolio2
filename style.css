@@ -13,7 +13,7 @@ nav {
   padding: 50px 10px 10px 10px;
   width: 375px;
   height: 92px;
-  background: #3c3a39;
+  background-color: #3c3a39;
 }
 
 nav a {
@@ -22,7 +22,7 @@ nav a {
   width: 77px;
   height: 24px;
   padding-top: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -31,6 +31,11 @@ nav a {
 nav img {
   color: #fff;
   padding-top: 12px;
+}
+
+.content1 img {
+  width: 327px;
+  height: 237px;
 }
 
 .main div img {
@@ -56,18 +61,15 @@ nav img:hover {
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  position: absolute;
   width: 375px;
   height: 590px;
-  left: 0;
-  top: 92px;
   background-color: #1c1a19;
 }
 
 .main h1 {
   width: 327px;
   height: 124px;
-  font-family: 'crete round', sans-serif;
+  font-family: "crete round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -79,7 +81,7 @@ nav img:hover {
 .main h2 {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -92,10 +94,208 @@ nav img:hover {
 .main p {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+}
+
+.works {
+  background-color: #e5e5e5;
+  width: 375px;
+  display: grid;
+  grid-template-columns: 324px;
+  grid-template-rows: 237px, 386px, 386px, 386px, 386px, 386px, 386px;
+  padding: 0 30px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+.content1 h1 {
+  width: 327px;
+  height: 83px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.content1 h2 {
+  width: 327px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 30px;
+  align-items: center;
+  color: #091e42;
+}
+
+.content1 p {
+  width: 327px;
+  height: 147px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+  color: #091e42;
+}
+
+.content1 div {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  width: 49px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #8993a4;
+}
+
+.content1 div h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 61px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #8993a4;
+}
+
+.content1 button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  font-size: 15px;
+  width: 124px;
+  height: 48px;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.cards {
+  background-image: url(Images/Img\ Placeholderbackground\ image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.cards h1 {
+  width: 295px;
+  height: 81px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.cards p {
+  width: 295px;
+  height: 87px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cards div {
+  display: flex;
+}
+
+.cards div h3 {
+  width: 71px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.cards button {
+  width: 327px;
+  height: 48px;
+  background-color: #ff6b00;
+}
+
+.About {
+  width: 375px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+}
+
+.About div h1 {
+  width: 327px;
+  height: 79px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.About div p {
+  width: 327px;
+  height: 148px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.About div button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  font-size: 15px;
+  background-color: #ff6b00;
+}
+
+.About div h2 {
+  width: 164px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.About div h3 {
+  width: 114px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.properties {
+  text-align: center;
 }
