@@ -33,7 +33,7 @@ nav img {
   padding-top: 12px;
 }
 
-header div img {
+.main div img {
   width: 200px;
   height: 40px;
 }
@@ -46,7 +46,7 @@ nav img:hover {
   border-bottom: 2px solid rgb(28, 28, 228);
 }
 
-header {
+.main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -64,7 +64,7 @@ header {
   background-color: #1c1a19;
 }
 
-header h1 {
+.main h1 {
   width: 327px;
   height: 124px;
   font-family: 'crete round', sans-serif;
@@ -76,7 +76,7 @@ header h1 {
   color: #ff6b00;
 }
 
-header h2 {
+.main h2 {
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -89,7 +89,7 @@ header h2 {
   color: #fff5e1;
 }
 
-header p {
+.main p {
   width: 327px;
   height: 123px;
   font-family: 'Poppins', sans-serif;
