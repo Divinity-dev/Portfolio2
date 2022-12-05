@@ -169,6 +169,12 @@ nav img:hover {
   margin-left: 20px;
 }
 
+button {
+  width: 327px;
+  height: 48px;
+  background-color: #ff6b00;
+}
+
 .content1 button {
   display: flex;
   flex-direction: row;
@@ -187,7 +193,6 @@ nav img:hover {
   background-size: cover;
   background-position: center;
   padding-left: 10px;
-
 }
 
 .cards h2 {
@@ -214,6 +219,17 @@ nav img:hover {
   display: flex;
 }
 
+.About div h3 {
+  width: 164px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
 .cards div ul h3 {
   width: 71px;
   font-style: normal;
@@ -226,15 +242,9 @@ nav img:hover {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.card div ul h3:hover{
+.card div ul h3:hover {
   border: 2px solid rgba(15, 202, 231, 0.747);
   cursor: pointer;
-}
-
-button {
-  width: 327px;
-  height: 48px;
-  background-color: #ff6b00;
 }
 
 .About {
@@ -268,6 +278,10 @@ button {
   color: #f4f5f7;
 }
 
+button:hover {
+  border: 2px solid rgba(15, 202, 231, 0.747);
+}
+
 .About div button {
   display: flex;
   flex-direction: row;
@@ -280,15 +294,12 @@ button {
   background-color: #ff6b00;
 }
 
-.About div h3 {
-  width: 164px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  color: #fff;
+.properties {
+  margin-left: 50px;
+}
+
+.properties h4 {
+  margin-left: 30px;
 }
 
 .About div h4 {
@@ -301,16 +312,4 @@ button {
   align-items: center;
   text-align: center;
   color: #fff;
-}
-
-.properties {
-  margin-left: 50px;
-}
-
-.properties h4 {
-margin-left: 30px;
-}
-
-button:hover{
-  border: 2px solid rgba(15, 202, 231, 0.747);
 }
