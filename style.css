@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  font-size: 20px;
   transition: all 0.5;
 }
 
@@ -36,6 +35,10 @@ nav img {
 .content1 img {
   width: 327px;
   height: 237px;
+}
+
+.Feature img {
+  margin-left: 185px;
 }
 
 .main div img {
@@ -276,7 +279,6 @@ button {
 
 .About div h2 {
   width: 327px;
-  height: 79px;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -289,7 +291,6 @@ button {
 
 .About div p {
   width: 327px;
-  height: 148px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -308,7 +309,6 @@ button:hover {
   padding: 12px;
   gap: 10px;
   width: 161px;
-  height: 48px;
   font-size: 15px;
   background-color: #ff6b00;
   color: #fff;
@@ -316,4 +316,8 @@ button:hover {
 
 .properties {
   margin-left: 50px;
+}
+
+.Feature {
+  border-bottom: 1px solid #fff;
 }
