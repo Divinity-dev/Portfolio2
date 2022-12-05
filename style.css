@@ -126,7 +126,7 @@ nav img:hover {
   line-height: 52px;
 }
 
-.content1 h3 {
+.content1 li {
   width: 327px;
   font-style: normal;
   font-weight: 400;
@@ -135,6 +135,7 @@ nav img:hover {
   margin-top: 30px;
   align-items: center;
   color: #091e42;
+  text-decoration: none;
 }
 
 .content1 p {
@@ -155,10 +156,13 @@ nav img:hover {
   width: 49px;
   background-color: #fff;
   border: 1px solid #8993a4;
-  list-style: none;
 }
 
-.content1 div h3 {
+.properties li {
+  margin-left: 30px;
+}
+
+.content1 div li {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -167,12 +171,14 @@ nav img:hover {
   background-color: #fff;
   border: 1px solid #8993a4;
   margin-left: 20px;
+  list-style: none;
 }
 
 button {
   width: 327px;
   height: 48px;
   background-color: #ff6b00;
+  color: #fff;
 }
 
 .content1 button {
@@ -228,9 +234,22 @@ button {
   display: flex;
   align-items: center;
   color: #fff;
+  text-decoration: none;
 }
 
-.cards div ul h3 {
+.About div li {
+  width: 114px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.cards div ul li {
   width: 71px;
   font-style: normal;
   font-weight: 500;
@@ -292,24 +311,9 @@ button:hover {
   height: 48px;
   font-size: 15px;
   background-color: #ff6b00;
+  color: #fff;
 }
 
 .properties {
   margin-left: 50px;
-}
-
-.properties h4 {
-  margin-left: 30px;
-}
-
-.About div h4 {
-  width: 114px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
 }
