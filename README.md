@@ -1,5 +1,4 @@
 # Portfolio2
-# portfolio
 
 <a name="readme-top"></a>
 
@@ -11,13 +10,9 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [📝 License](#license)
-
+- [👥 Authors](#Divine Asiriuwa)
+- [🔭 Future Features](#Works, About me, header)
+- [🙏 Acknowledgements](#Mr nathaniel, Miss rejoice)
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio] <a name="about-project"></a>
@@ -56,19 +51,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Here is a link to the deployed project.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name=""></a>
 
 > Mention all of the collaborators of this project.
 
