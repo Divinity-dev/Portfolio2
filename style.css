@@ -117,7 +117,7 @@ nav img:hover {
   background-color: #e5e5e5;
 }
 
-.content1 h1 {
+.content1 h2 {
   width: 327px;
   height: 83px;
   margin-top: 20px;
@@ -127,7 +127,7 @@ nav img:hover {
   line-height: 52px;
 }
 
-.content1 h2 {
+.content1 h3 {
   width: 327px;
   height: 36px;
   font-style: normal;
@@ -150,7 +150,11 @@ nav img:hover {
   color: #091e42;
 }
 
-.content1 div {
+ul {
+  list-style: none;
+}
+
+.content1 div ul {
   display: flex;
   align-items: center;
   padding: 10px 12px;
@@ -190,7 +194,7 @@ nav img:hover {
   background-position: center;
 }
 
-.cards h1 {
+.cards h2 {
   width: 295px;
   height: 81px;
   font-style: normal;
@@ -210,7 +214,7 @@ nav img:hover {
   color: #fff;
 }
 
-.cards div {
+.cards div ul {
   display: flex;
 }
 
@@ -222,6 +226,7 @@ nav img:hover {
   font-size: 15px;
   line-height: 20px;
   color: #fff;
+  margin-left: 20px;
 }
 
 .cards button {
@@ -238,7 +243,7 @@ nav img:hover {
   background-color: #1c1a19;
 }
 
-.About div h1 {
+.About div h2 {
   width: 327px;
   height: 79px;
   font-style: normal;
@@ -273,7 +278,7 @@ nav img:hover {
   background-color: #ff6b00;
 }
 
-.About div h2 {
+.About div h3 {
   width: 164px;
   font-style: normal;
   font-weight: 700;
@@ -284,7 +289,7 @@ nav img:hover {
   color: #fff;
 }
 
-.About div h3 {
+.About div h4 {
   width: 114px;
   font-style: normal;
   font-weight: 400;
