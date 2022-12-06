@@ -155,7 +155,7 @@ nav img:hover {
 .content1 div ul {
   display: flex;
   align-items: center;
-  padding: 10px 12px;
+  padding: 3px 6px;
   width: 49px;
   background-color: #fff;
   border: 1px solid #8993a4;
@@ -182,6 +182,8 @@ button {
   height: 48px;
   background-color: #ff6b00;
   color: #fff;
+  border: none;
+  width:100%
 }
 
 .content1 button {
@@ -201,7 +203,8 @@ button {
   background-image: url(Images/Img\ Placeholderbackground\ image.png);
   background-size: cover;
   background-position: center;
-  padding-left: 10px;
+  padding-left: 10px; 
+  padding-bottom: 20px;
 }
 
 .cards h2 {
@@ -320,4 +323,8 @@ button:hover {
 
 .Feature {
   border-bottom: 1px solid #fff;
+}
+
+ul{
+  list-style: none;
 }
