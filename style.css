@@ -152,6 +152,10 @@ nav img:hover {
   color: #091e42;
 }
 
+ul {
+  list-style: none;
+}
+
 .content1 div ul {
   display: flex;
   align-items: center;
@@ -162,7 +166,8 @@ nav img:hover {
 }
 
 .properties li {
-  margin-left: 30px;
+  margin-left: 50px;
+  text-align: center;
 }
 
 .content1 div li {
@@ -178,12 +183,11 @@ nav img:hover {
 }
 
 button {
-  width: 327px;
   height: 48px;
   background-color: #ff6b00;
   color: #fff;
   border: none;
-  width:100%
+  width: 100%;
 }
 
 .content1 button {
@@ -203,7 +207,7 @@ button {
   background-image: url(Images/Img\ Placeholderbackground\ image.png);
   background-size: cover;
   background-position: center;
-  padding-left: 10px; 
+  padding-left: 10px;
   padding-bottom: 20px;
 }
 
@@ -323,8 +327,4 @@ button:hover {
 
 .Feature {
   border-bottom: 1px solid #fff;
-}
-
-ul{
-  list-style: none;
 }
