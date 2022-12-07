@@ -24,12 +24,19 @@ nav a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 nav img {
   color: #fff;
   padding-top: 12px;
+}
+
+.bulletpoint img {
+  width: 18px;
+  height: 18px;
+  margin-top: 15px;
+  margin-right: 5px;
 }
 
 .content1 img {
@@ -109,7 +116,7 @@ nav img:hover {
   background-color: #fff;
   width: 375px;
   display: grid;
-  grid-template-columns: 324px;
+  grid-template-columns: 327px;
   grid-template-rows: 237px, 386px, 386px, 386px, 386px, 386px, 386px;
   padding: 60px 30px;
 }
@@ -123,27 +130,33 @@ nav img:hover {
 .content1 h2 {
   width: 327px;
   margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #212121;
 }
 
-.content1 li {
+.content1 h3 {
   width: 327px;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 30px;
-  align-items: center;
   color: #091e42;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .content1 p {
   width: 327px;
   height: 147px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -159,10 +172,8 @@ ul {
 .content1 div ul {
   display: flex;
   align-items: center;
-  padding: 3px 6px;
   width: 49px;
-  background-color: #fff;
-  border: 1px solid #8993a4;
+  margin-bottom: 10px;
 }
 
 .properties li {
@@ -170,16 +181,33 @@ ul {
   text-align: center;
 }
 
-.content1 div li {
+.About div li {
+  width: 114px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 43px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 5px 8px;
+  text-align: center;
+  color: #fff;
+}
+
+.content1 div ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 15px;
+  line-height: 44px;
+  text-decoration: none;
   background-color: #fff;
   border: 1px solid #8993a4;
-  margin-left: 20px;
-  list-style: none;
+  color: #091e42;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 button {
@@ -188,6 +216,7 @@ button {
   color: #fff;
   border: none;
   width: 100%;
+  font-family: "Inter", sans-serif;
 }
 
 .content1 button {
@@ -209,11 +238,13 @@ button {
   background-position: center;
   padding-left: 10px;
   padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 .cards h2 {
   width: 295px;
   height: 81px;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -224,6 +255,7 @@ button {
 .cards p {
   width: 295px;
   height: 87px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -247,20 +279,9 @@ button {
   text-decoration: none;
 }
 
-.About div li {
-  width: 114px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
 .cards div ul li {
   width: 71px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -278,14 +299,15 @@ button {
 
 .About {
   width: 375px;
-  padding: 0 30px;
+  padding: 60px 30px;
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
 }
 
-.About div h2 {
+.Feature h2 {
   width: 327px;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -296,8 +318,9 @@ button {
   color: #ff6b00;
 }
 
-.About div p {
+.Feature p {
   width: 327px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -309,7 +332,7 @@ button:hover {
   border: 2px solid rgba(15, 202, 231, 0.747);
 }
 
-.About div button {
+.Feature button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -322,9 +345,14 @@ button:hover {
 }
 
 .properties {
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .Feature {
+  margin-bottom: 70px;
   border-bottom: 1px solid #fff;
+}
+
+.bulletpoint {
+  display: flex;
 }
