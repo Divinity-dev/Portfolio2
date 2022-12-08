@@ -356,3 +356,106 @@ button:hover {
 .bulletpoint {
   display: flex;
 }
+
+.contact {
+  width: 375px;
+  padding: 60px 30px;
+  background-color: #fff;
+}
+
+.contact h2 {
+  width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 327px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 10px 20px;
+}
+
+form input:hover {
+  border-bottom: 2px solid rgba(15, 202, 231, 0.747);
+  cursor: pointer;
+}
+
+.inputfield {
+  width: 327px;
+  height: 114px;
+  background-color: #fbf8f7;
+  position: relative;
+  border: none;
+  margin-top: 20px;
+}
+
+.inputfield:hover {
+  border: 2px solid rgba(15, 202, 231, 0.747);
+  cursor: pointer;
+}
+
+.inputfield::placeholder {
+  position: absolute;
+  top: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.contact div button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  margin-left: 100px;
+  background: #ff6b00;
+  margin-bottom: 90px;
+}
+
+hr {
+  height: 1px;
+  background: #dfe1e6;
+}
+
+hr:hover {
+  border-bottom: 2px solid rgba(15, 202, 231, 0.747);
+  cursor: pointer;
+}
+
+.Socials {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.Socials img:hover {
+  color: rgba(15, 202, 231, 0.747);
+}
+
+.line {
+  background-color: #0d151e;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
