@@ -10,6 +10,10 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [👥 Authors](#Divine Asiriuwa)
+- [🔭 Future Features](#Works, About me, header)
+- [🙏 Acknowledgements](#Mr nathaniel, Miss rejoice)
+<!-- PROJECT DESCRIPTION -->
     - <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -63,13 +67,19 @@ In order to run this project you need: A browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here is a link to the deployed project.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name=""></a>
+## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
