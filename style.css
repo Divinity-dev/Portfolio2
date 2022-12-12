@@ -264,7 +264,7 @@ button {
 }
 
 .cards div ul {
-  display: flex;
+  display: block;
 }
 
 .About div h3 {
@@ -281,6 +281,7 @@ button {
 
 .cards div ul li {
   width: 71px;
+  float: right;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
