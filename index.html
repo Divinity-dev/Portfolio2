@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,17 +14,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="queries.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header >
         <nav>
-        <a href="">John Doe</a>
-         <img src="Images/532-5328945_menu-bar-icon-white-clipart-png-download-menu.png" alt=""> 
+        <a href="" class="john">John Doe</a>
+        <div class="menu">
+            <a href="" class="icon">Portfolio</a>
+            <a href="" class="icon">About</a>
+            <a href="" class="icon">Contact</a>
+            <a href="" class="icon message"><img src="Images/message-icon-png-14.png" alt=""></a>
+         <img src="Images/532-5328945_menu-bar-icon-white-clipart-png-download-menu.png" alt="" class="dropdown">
+        </div> 
         </nav>
     </header>
     <section class="main">
+        <div>
                 <h1>Hey There.
                     I’m Divne
                 </h1>
@@ -34,8 +42,13 @@
                 I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
 don’t hestiate to contact me.
             </p>
-            <div>
-               <img src="Images/Social Media.png" alt="Social icons">
+        </div>
+            <div class="Socials">
+                <a href=""><img src="Images/Vectorcat.png" alt=""></a> 
+                <a href=""><img src="Images/Framein.png" alt=""></a>
+                <a href=""><img src="Images/VectorFingers.png" alt=""></a>
+                <a href=""><img src="Images/Vectortwitter.png" alt=""></a>
+                <a href=""><img src="Images/VectorM.png" alt=""></a>
             </div>
         </section>
         <section class="works">
@@ -43,7 +56,9 @@ don’t hestiate to contact me.
                 <h2>
                     My Recent Works
                 </h2>
+                <div class="flex-container">
                 <img src="Images/Img Placeholder.png" alt="">
+                <div class="flex-child">
                 <h3>
                     Multi-Post Stories
                 </h3>
@@ -60,9 +75,12 @@ don’t hestiate to contact me.
                 </ul>
                 </div>
                 <button>See Project</button>
-            
             </div>
-            <div class="cards">
+            </div>
+            </div>
+            <div class="grid-container">
+                <div>
+            <div class="cards card1">
                 <h2>
                     Profesional Art Printing Data
                 </h2>
@@ -80,7 +98,9 @@ don’t hestiate to contact me.
                 
             </div>
             <button>See Project</button>
-            <div class="cards">
+        </div>
+        <div class="card5">
+            <div class="cards card2">
                 <h2>
                     Profesional Art Printing Data
                 </h2>
@@ -98,7 +118,9 @@ don’t hestiate to contact me.
                 
             </div>
             <button>See Project</button>
-            <div class="cards">
+        </div>
+        <div class="card5">
+            <div class="cards card3">
                 <h2>
                     Profesional Art Printing Data
                 </h2>
@@ -116,7 +138,11 @@ don’t hestiate to contact me.
                 
             </div>
             <button>See Project</button>
-            <div class="cards">
+        </div>
+        </div>
+        <div class="grid-container">
+            <div class="card5">
+            <div class="cards card4">
                 <h2>
                     Profesional Art Printing Data
                 </h2>
@@ -134,7 +160,9 @@ don’t hestiate to contact me.
                 
             </div>
             <button>See Project</button>
-            <div class="cards">
+        </div>
+        <div class="card5">
+            <div class="cards card2">
                 <h2>
                     Profesional Art Printing Data
                 </h2>
@@ -152,7 +180,9 @@ don’t hestiate to contact me.
                 
             </div>
             <button>See Project</button>
-            <div class="cards">
+        </div>
+        <div class="card5">
+            <div class="cards card3">
                 <h2>
                     Profesional Art Printing Data
                 </h2>
@@ -170,6 +200,8 @@ don’t hestiate to contact me.
                 
             </div>
             <button>See Project</button>
+        </div>
+        </div>
         </section>
         <section class="About">
             <div class="Feature">
@@ -188,7 +220,7 @@ don’t hestiate to contact me.
             </div>
             <div class="properties">
                 <ul class="lang">
-                
+                <div>
                     <div class="bulletpoint">
                     <img src="Images/Rectangle 55.png" alt="">
                     <h3>Language</h3>
@@ -199,7 +231,8 @@ don’t hestiate to contact me.
                     <li>Html</li>
                     <li>Css</li>
                 </ul>
-                
+            </div>
+            <div>
                     <div class="bulletpoint">
                     <img src="Images/Rectangle 56.png" alt="">
                     <h3>Frameworks</h3>
@@ -211,6 +244,8 @@ don’t hestiate to contact me.
                     <li>CapyBara</li>
                     <li>Selenium</li>
                 </ul>
+            </div>
+            <div>
                     <div class="bulletpoint">
                         <img src="Images/Rectangle 57.png" alt="">
                     <h3>Skills</h3>
@@ -222,17 +257,22 @@ don’t hestiate to contact me.
                     <li>Gitlab</li>
                     <li>Terminal</li>
                 </ul>
+            </div>
             </ul>
             </div>
         </section>
         <section class="contact">
-            <div>
+            <div class="contact-content">
             <h2>I'm always interested in hearing about new projects, 
                 so if you'd like to chat please get in touch.
             </h2>
             <form action="https://formspree.io/f/xeqdywdz" method="post">
-                <input required type="text" placeholder="Full name" maxlength="30">
-                <input required type="email" placeholder="Email address" name="email">
+                <div class="field">
+                    <input required type="text" placeholder="First name" maxlength="30">
+                    <input required type="text" placeholder="Last name" maxlength="30">
+                </div>
+                <input required type="text" placeholder="Full name" maxlength="30" class="hide">
+                <input required type="email" placeholder="Email address" name="email" class="email">
                 <textarea required class="inputfield" type="text" placeholder="Enter text here" maxlength="500"></textarea>
                 <button type="submit">Get in touch</button>
             </form>
