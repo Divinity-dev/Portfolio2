@@ -570,4 +570,8 @@
     border: 2px solid rgba(15, 202, 231, 0.747);
     cursor: pointer;
   }
+
+  .flex-container img:hover {
+    transform: scale(1.02);
+  }
 }
