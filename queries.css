@@ -2,9 +2,9 @@
   nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 10px 10px 10px;
+    padding: 10px;
     width: 100%;
-    height: 92px;
+    height: 72px;
     background-color: #3c3a39;
     align-items: center;
   }
@@ -72,11 +72,13 @@
   }
 
   .works {
-    background-color: #fff;
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 80px;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 130px 24px;
+   gap: 114px;
+   width: 1204px;
   }
 
   .About {
@@ -96,6 +98,7 @@
     font-size: 72px;
     line-height: 82px;
     color: #f55800;
+    margin-bottom: 20px;
   }
 
   .main h2 {
@@ -120,6 +123,7 @@
     font-size: 20px;
     line-height: 32px;
     color: #f4f5f7;
+    margin-bottom: 20px;
   }
 
   .main div {
@@ -156,7 +160,7 @@
   }
 
   .Socials a img {
-    background-color: #fff;
+    color: #fff;
   }
 
   .content1 h3 {
@@ -339,10 +343,16 @@
 
   .flex-container {
     display: flex;
+    align-items:flex-end;
+  }
+
+  .flex-container img {
+    width: 60%;
   }
 
   .flex-child {
     margin-left: 30px;
+    width: 40%;
   }
 
   .flex-child h2 {
@@ -463,7 +473,7 @@
   }
 
   .inputfield {
-    width: 327px;
+    width: 684px;
     height: 114px;
     background-color: #fbf8f7;
     position: relative;
@@ -500,7 +510,7 @@
 
   hr:hover {
     border-bottom: 2px solid rgba(15, 202, 231, 0.747);
-    cursor: pointer;
+    cursor: pointer; 
   }
 
   .Socials img:hover {
@@ -527,15 +537,6 @@
     align-items: center;
     color: #262626;
     margin-right: 40px;
-  }
-
-  .hide {
-    display: none;
-  }
-
-  .field {
-    display: flex;
-    justify-content: space-evenly;
   }
 
   .inputfield::placeholder {
@@ -569,5 +570,25 @@
   .content1 div ul li:hover {
     border: 2px solid rgba(15, 202, 231, 0.747);
     cursor: pointer;
+  }
+
+  .vector {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Black {
+    background-color: #000;
+    height: 2px;
+    display: inline;
+  }
+
+  .vector img {
+    width: 794px;
+    height: 0px;
+    border: 1px solid #212121;
+    background-color:#212121;
+    margin-top: 60px;
   }
 }
