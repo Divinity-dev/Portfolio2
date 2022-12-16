@@ -72,13 +72,13 @@
   }
 
   .works {
-   background-color: #fff;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 130px 24px;
-   gap: 114px;
-   width: 1204px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 24px;
+    gap: 114px;
+    width: 1204px;
   }
 
   .About {
@@ -157,6 +157,18 @@
   .content1 img {
     width: 684px;
     height: 448px;
+  }
+
+  .flex-container img {
+    width: 60%;
+  }
+
+  .vector img {
+    width: 794px;
+    height: 0;
+    border: 1px solid #212121;
+    background-color: #212121;
+    margin-top: 60px;
   }
 
   .Socials a img {
@@ -343,11 +355,7 @@
 
   .flex-container {
     display: flex;
-    align-items:flex-end;
-  }
-
-  .flex-container img {
-    width: 60%;
+    align-items: flex-end;
   }
 
   .flex-child {
@@ -510,7 +518,7 @@
 
   hr:hover {
     border-bottom: 2px solid rgba(15, 202, 231, 0.747);
-    cursor: pointer; 
+    cursor: pointer;
   }
 
   .Socials img:hover {
@@ -582,13 +590,5 @@
     background-color: #000;
     height: 2px;
     display: inline;
-  }
-
-  .vector img {
-    width: 794px;
-    height: 0px;
-    border: 1px solid #212121;
-    background-color:#212121;
-    margin-top: 60px;
   }
 }
