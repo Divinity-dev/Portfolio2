@@ -59,6 +59,10 @@
     height: 20px;
   }
 
+  .vector img {
+    display: none;
+  }
+
   .main div img {
     margin-left: 20px;
     background-color: #fff;
@@ -477,8 +481,4 @@
   .dropdown {
     width: 16px;
   }
-
-  /* .field {
-    display: none;
-  } */
 }
