@@ -35,12 +35,13 @@
 
   .flex-container img {
     width: 60%;
-  }
-
-  .content1 img {
-    width: 684px;
     height: 448px;
   }
+
+  /* .content1 img {
+    width: 684px;
+    height: 448px;
+  } */
 
   .bulletpoint img {
     width: 18px;
@@ -597,5 +598,9 @@
     background-color: #000;
     height: 2px;
     display: inline;
+  }
+
+  .hide {
+    width: 684px;
   }
 }

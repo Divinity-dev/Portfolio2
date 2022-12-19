@@ -67,12 +67,14 @@ In order to run this project you need: A browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here is a link to the deployed project.
+> Add a link to your deployed project.
 
+- [Live Demo Link](https://divinity-dev.github.io/Portfolio2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
