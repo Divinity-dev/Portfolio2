@@ -65,6 +65,10 @@
     background-color: #fff;
   }
 
+  img:hover {
+    transform: scale(1.02);
+  }
+
   .data a img {
     filter: brightness(0) invert(1);
   }

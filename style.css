@@ -63,6 +63,10 @@
     display: none;
   }
 
+  img:hover {
+    transform: scale(1.02);
+  }
+
   .main div img {
     margin-left: 20px;
     filter: brightness(0) invert(1);

@@ -13,6 +13,7 @@
 - [👥 Authors](#Divine Asiriuwa)
 - [🔭 Future Features](#Works, About me, header)
 - [🙏 Acknowledgements](#Mr nathaniel, Miss rejoice)
+- [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
     - <!-- GETTING STARTED -->
 
