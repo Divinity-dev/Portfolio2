@@ -86,16 +86,15 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 590px; */
     background-color: #1c1a19;
     position: relative;
   }
 
   .main-photo {
     position: absolute;
-width: 100px;
-right: 0;
-bottom: 0;
+    width: 100px;
+    right: 0;
+    bottom: 0;
   }
 
   .main h1 {

@@ -36,6 +36,7 @@
   .flex-container img {
     width: 60%;
     height: 448px;
+    margin-top: 10px;
   }
 
   /* .content1 img {
@@ -373,10 +374,6 @@
     position: relative;
   }
 
-  .flex-container img {
-    margin-top: 10px;
-  }
-
   .flex-child {
     margin-left: 30px;
     width: 40%;
@@ -559,7 +556,6 @@
 
   .contact-content h2 {
     width: 70%;
-    /* height: 256px; */
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
