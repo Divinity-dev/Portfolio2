@@ -82,13 +82,19 @@
     align-items: flex-start;
     padding: 120px 24px;
     gap: 12px;
-    background-image: url(Images/Group.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 590px;
     background-color: #1c1a19;
+    position: relative;
+  }
+
+  .main-photo {
+    position: absolute;
+    width: 100px;
+    right: 0;
+    bottom: 0;
   }
 
   .main h1 {
