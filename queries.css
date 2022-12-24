@@ -185,6 +185,10 @@
     color: #fff;
   }
 
+  .main-photo {
+    display: none;
+  }
+
   .content1 h3 {
     width: 448px;
     height: 48px;
@@ -366,11 +370,19 @@
   .flex-container {
     display: flex;
     align-items: flex-end;
+    position: relative;
+  }
+
+  .flex-container img {
+    margin-top: 10px;
   }
 
   .flex-child {
     margin-left: 30px;
     width: 40%;
+    top: 0;
+    left: 60%;
+    position: absolute;
   }
 
   .flex-child h2 {
@@ -546,17 +558,18 @@
   }
 
   .contact-content h2 {
-    width: 455px;
-    height: 256px;
+    width: 70%;
+    /* height: 256px; */
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 52px;
     display: flex;
     align-items: center;
     color: #262626;
     margin-right: 40px;
+    margin-bottom: 90px;
   }
 
   .inputfield::placeholder {
