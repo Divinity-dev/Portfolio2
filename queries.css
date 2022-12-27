@@ -83,6 +83,12 @@
     width: 92px;
   }
 
+  .dropdown img {
+    width: 16px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
   nav a:hover {
     border-bottom: 2px solid rgba(15, 202, 231, 0.747);
     cursor: pointer;
