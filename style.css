@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 767px) {
   nav {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 50px 10px 10px 10px;
@@ -17,9 +18,7 @@
     background-color: #3c3a39;
   }
 
-  /* .navi {
-    height: 100vh;
-  } */
+ 
 
   nav a {
     text-decoration: none;
