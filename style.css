@@ -9,7 +9,6 @@
 
 body {
   position: absolute;
-  width: 100vw;
 }
 
 @media screen and (max-width: 767px) {
@@ -55,7 +54,7 @@ body {
 
   .Feature img {
     position: absolute;
-  right: -5%;
+  right: 0%;
   bottom: 0;
   }
 
