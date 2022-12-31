@@ -16,6 +16,7 @@
     width: 100%;
     height: 92px;
     background-color: #3c3a39;
+    z-index: 1;
   }
 
  
@@ -384,7 +385,7 @@
 
   .contact {
     width: 100%;
-    padding: 60px 30px;
+    padding: 40px 30px;
     background-color: #fff;
   }
 
@@ -538,4 +539,112 @@
   .show {
     left: 0;
   }
+
+  .pop-up {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 92%;
+    position: fixed;
+    height: 80vh;
+    top: 0;
+    transform: scale(0.1);
+    visibility: hidden;
+    background-color: #fff;
+    z-index: 3;
+  }
+
+
+  .to-do h2 {
+    display: none;
+  }
+
+  .to-do div{
+    width: auto;
+    display: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: auto;
+line-height: 16px;
+color: #3C3A39;
+margin-bottom: 30px;
+  }
+
+  .to-do li {
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 80%;
+border: 1px solid #DFE1E6
+
+  }
+
+  .pop-up h2 {
+    width: 76%;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 160%;
+line-height: 44px;
+color: #172B4D;
+margin-bottom: 30px;
+  }
+
+  .pop {
+    width: 311px;
+height: 220px;
+    margin-bottom: 30px;
+  }
+
+  .drop {
+    width: 10%;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .ipsum p{
+    width: auto;
+
+font-family: 'Inter' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100%;
+line-height: 24px;
+margin-bottom: 20px;
+color: #344563;
+  }
+
+  .btn button {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+font-size: 74%;
+gap: 12px;
+width: 45%;
+height: auto;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .star {
+    top: 0;
+    transform: scale(1);
+    visibility: visible;
+    
+  }
+
+  .blur {
+    filter: blur(20px);
+  }
+
+  .btn a {
+    width: 45%;
+  }
+
+  
 }
