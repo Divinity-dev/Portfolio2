@@ -748,4 +748,15 @@ color: #344563;
   .btn a {
     width: 60%;
   }
+
+  .function {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .function p{
+    color: red;
+    margin-left: 20px;
+
+  }
 }

@@ -274,11 +274,14 @@ don’t hestiate to contact me.
             <h2>I'm always interested in hearing about new projects, 
                 so if you'd like to chat please get in touch.
             </h2>
-            <form action="https://formspree.io/f/xeqdywdz" method="post">
+            <form action="https://formspree.io/f/xeqdywdz" method="post" id="submit-form">
                 <input required type="text" placeholder="Full name" maxlength="30" class="hide">
-                <input required type="email" placeholder="Email address" name="email" class="email">
+                <input required type="email" placeholder="Email address" name="email" class="email" id="email">
                 <textarea required class="inputfield" type="text" placeholder="Enter text here" maxlength="500"></textarea>
-                <button type="submit">Get in touch</button>
+                <div class="function">
+                <button type="submit" id="submit-btn">Get in touch</button>
+                <p id="error-message"></p>
+            </div>
             </form>
             <hr>
         </div>

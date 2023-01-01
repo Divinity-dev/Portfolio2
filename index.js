@@ -58,14 +58,6 @@ document.getElementById('close-page').onclick=function(){
  document.getElementById('Portfolio').classList.remove('blur');
  document.getElementById('About').classList.remove('blur');
  document.getElementById('Contact').classList.remove('blur');
-//  document.getElementById('l1').innerHTML=projectprop[0].technologies[0];
-//  document.getElementById('l2').innerHTML=projectprop[0].technologies[1];
-//  document.getElementById('l3').innerHTML=projectprop[0].technologies[2];
-//  document.getElementById('pop').src=projectprop[0].URL;
-//  document.getElementById('h2').innerHTML=projectprop[0].name;
-//  document.getElementById('site').href=projectprop[0].site;
-//  document.getElementById('source').href=projectprop[0].source;
-//  document.getElementById('paragragh').innerHTML=projectprop[0].Description;
 };
 
 document.getElementById('card-btn').onclick=function(){
@@ -83,3 +75,11 @@ document.getElementById('card-btn').onclick=function(){
  document.getElementById('source').href=projectprop[1].source;
 //  document.getElementById('paragragh').innerHTML=projectprop[1].Description;
 };
+
+document.getElementById('submit-form').onsubmit=function(e){
+let email=document.getElementById('email').value;
+if(email!==email.toLowerCase){
+  e.preventDefault();
+  document.getElementById('error-message').innerHTML='Email must be lowercase';
+}
+}
