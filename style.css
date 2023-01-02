@@ -490,7 +490,7 @@
   }
 
   .icon {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -499,7 +499,6 @@
     height: 100px;
     display: flex;
     align-items: center;
-
     color: #fff5e1;
     border-bottom: 1px solid #6f6c6b;
   }
