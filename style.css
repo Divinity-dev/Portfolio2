@@ -5,6 +5,7 @@
   text-rendering: optimizeLegibility;
   transition: all 0.5;
   list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -571,12 +572,13 @@ body {
     padding: 20px;
     width: 92%;
     position: fixed;
-    height: 85vh;
+    height: 95vh;
     top: 0;
     transform: scale(0.1);
     visibility: hidden;
     background-color: #fff;
     z-index: 3;
+    font-size: 50%;
   }
 
   .to-do h2 {
@@ -633,6 +635,14 @@ body {
   .btn {
     display: flex;
     justify-content: space-between;
+  }
+
+  .btn button {
+    width: 50%;
+  }
+
+  .btn img {
+    width: 15%;
   }
 
   .star {
