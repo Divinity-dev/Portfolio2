@@ -654,5 +654,14 @@ height: auto;
     width: 45%;
   }
 
-  
+  .function {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .function p{
+    color: red;
+    margin-left: 20px;
+
+  }
 }

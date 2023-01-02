@@ -73,7 +73,6 @@ document.getElementById('card-btn').onclick=function(){
  document.getElementById('h2').innerHTML=projectprop[1].name;
  document.getElementById('site').href=projectprop[1].site;
  document.getElementById('source').href=projectprop[1].source;
-//  document.getElementById('paragragh').innerHTML=projectprop[1].Description;
 };
 
 document.getElementById('submit-form').onsubmit=function(e){
