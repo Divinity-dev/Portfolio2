@@ -12,6 +12,7 @@ document.getElementById('close-bar').onclick = function () {
   document.getElementById('close-bar').classList.add('close');
 };
 
+// eslint-disable-next-line func-names
 document.getElementById('toggle').onclick = function () {
   document.getElementById('menu-bar').classList.remove('show');
   document.getElementById('open-bar').classList.remove('close');
