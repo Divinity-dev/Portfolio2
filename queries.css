@@ -71,6 +71,12 @@
     transform: scale(1.02);
   }
 
+  .dropdown img {
+    width: 16px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
   .data a img {
     filter: brightness(0) invert(1);
   }
@@ -82,12 +88,6 @@
 
   .john {
     width: 92px;
-  }
-
-  .dropdown img {
-    width: 16px;
-    height: 30px;
-    margin-right: 10px;
   }
 
   nav a:hover {
