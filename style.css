@@ -9,13 +9,19 @@
 
 @media screen and (max-width: 767px) {
   nav {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 50px 10px 10px 10px;
     width: 100%;
     height: 92px;
     background-color: #3c3a39;
+    z-index: 1;
   }
+
+  /* .navi {
+    height: 100vh;
+  } */
 
   nav a {
     text-decoration: none;
@@ -30,7 +36,6 @@
   }
 
   nav img {
-    color: #fff;
     padding-top: 12px;
   }
 
@@ -65,6 +70,12 @@
 
   img:hover {
     transform: scale(1.02);
+  }
+
+  .dropdown img {
+    width: 16px;
+    height: 30px;
+    margin-right: 10px;
   }
 
   .main div img {
@@ -485,10 +496,47 @@
   }
 
   .icon {
-    display: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff5e1;
+    border-bottom: 1px solid #6f6c6b;
   }
 
   .dropdown {
-    width: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu {
+    position: fixed;
+    left: -100%;
+    top: 65px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    margin-top: 20px;
+    background-color: #3c3a39;
+    z-index: 1;
+  }
+
+  .message {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .show {
+    left: 0;
   }
 }

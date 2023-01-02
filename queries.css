@@ -1,5 +1,6 @@
 @media screen and (min-width: 768px) {
   nav {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding-left: 60px;
@@ -68,6 +69,12 @@
 
   img:hover {
     transform: scale(1.02);
+  }
+
+  .dropdown img {
+    width: 16px;
+    height: 30px;
+    margin-right: 10px;
   }
 
   .data a img {
