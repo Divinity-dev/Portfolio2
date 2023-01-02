@@ -654,4 +654,10 @@ body {
   .blur {
     filter: blur(20px);
   }
+
+  .close {
+    display: none;
+  }
+   
+  
 }
