@@ -72,6 +72,12 @@
     transform: scale(1.02);
   }
 
+  .dropdown img {
+    width: 16px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
   .main div img {
     margin-left: 20px;
     filter: brightness(0) invert(1);
@@ -508,12 +514,6 @@
     justify-content: space-between;
   }
 
-  .dropdown img {
-    width: 16px;
-    height: 30px;
-    margin-right: 10px;
-  }
-
   .menu {
     position: fixed;
     left: -100%;
@@ -535,7 +535,6 @@
   .close {
     display: none;
   }
-
 
   .show {
     left: 0;
