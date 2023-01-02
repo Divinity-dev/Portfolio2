@@ -4,7 +4,7 @@ document.getElementById('open-bar').onclick = function open() {
   document.getElementById('close-bar').classList.remove('close');
 };
 
-document.getElementById('close-bar').onclick = function close() {
+document.getElementById('close-bar').onclick = () => {
   document.getElementById('menu-bar').classList.remove('show');
   document.getElementById('open-bar').classList.remove('close');
   document.getElementById('close-bar').classList.add('close');
