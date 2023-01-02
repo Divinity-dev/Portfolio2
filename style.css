@@ -24,8 +24,6 @@ body {
     z-index: 1;
   }
 
- 
-
   nav a {
     text-decoration: none;
     color: #fff;
@@ -35,6 +33,10 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
+  }
+
+  .menu a {
+    margin-top: 10%;
   }
 
   nav img {
@@ -55,8 +57,12 @@ body {
 
   .Feature img {
     position: absolute;
-  right: 0%;
-  bottom: 0;
+    right: 0%;
+    bottom: 0;
+  }
+
+  .btn a {
+    width: 45%;
   }
 
   nav a:hover {
@@ -73,6 +79,12 @@ body {
 
   img:hover {
     transform: scale(1.02);
+  }
+
+  .dropdown img {
+    width: 50%;
+    height: 50%;
+    margin-right: 10px;
   }
 
   .main div img {
@@ -146,7 +158,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100%,  100%,  100%,  100%,  100%,  100%,  100%;
+    grid-template-rows: 100%, 100%, 100%, 100%, 100%, 100%, 100%;
     padding: 60px 30px;
   }
 
@@ -208,6 +220,13 @@ body {
   .properties li {
     margin-left: 13%;
     text-align: center;
+  }
+
+  .to-do li {
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 80%;
+    border: 1px solid #dfe1e6;
   }
 
   .About div li {
@@ -447,6 +466,17 @@ body {
     line-height: 24px;
   }
 
+  .btn button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 74%;
+    gap: 12px;
+    width: 45%;
+    height: auto;
+  }
+
   .contact div button {
     display: flex;
     flex-direction: row;
@@ -492,7 +522,7 @@ body {
   }
 
   .icon {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -500,7 +530,6 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-
     color: #fff5e1;
     border-bottom: 1px solid #6f6c6b;
   }
@@ -508,12 +537,6 @@ body {
   .dropdown {
     display: flex;
     justify-content: space-between;
-  }
-
-  .dropdown img {
-    width: 50%;
-    height: 50%;
-    margin-right: 10px;
   }
 
   .menu {
@@ -530,10 +553,6 @@ body {
     z-index: 1;
   }
 
-  .menu a {
-    margin-top: 10%;
-  }
-
   .message {
     display: none;
   }
@@ -541,7 +560,6 @@ body {
   .close {
     display: none;
   }
-
 
   .show {
     left: 0;
@@ -562,45 +580,36 @@ body {
     z-index: 3;
   }
 
-
   .to-do h2 {
     display: none;
   }
 
-  .to-do div{
+  .to-do div {
     width: auto;
     display: flex;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: auto;
-line-height: 16px;
-color: #3C3A39;
-margin-bottom: 30px;
-  }
-
-  .to-do li {
-    margin-right: 10px;
-    padding: 10px 10px;
-    font-size: 80%;
-border: 1px solid #DFE1E6
-
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: auto;
+    line-height: 16px;
+    color: #3c3a39;
+    margin-bottom: 30px;
   }
 
   .pop-up h2 {
     width: 76%;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 160%;
-line-height: 44px;
-color: #172B4D;
-margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160%;
+    line-height: 44px;
+    color: #172b4d;
+    margin-bottom: 30px;
   }
 
   .pop {
     width: 83%;
-height: 22%;
+    height: 22%;
     margin-bottom: 30px;
   }
 
@@ -611,27 +620,15 @@ height: 22%;
     right: 20px;
   }
 
-  .ipsum p{
+  .ipsum p {
     width: auto;
-
-font-family: 'Inter' sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 100%;
-line-height: 24px;
-margin-bottom: 20px;
-color: #344563;
-  }
-
-  .btn button {
-    display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 10px;
-font-size: 74%;
-gap: 12px;
-width: 45%;
-height: auto;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #344563;
   }
 
   .btn {
@@ -643,15 +640,10 @@ height: auto;
     top: 0;
     transform: scale(1);
     visibility: visible;
-    
   }
 
   .blur {
     filter: blur(20px);
-  }
-
-  .btn a {
-    width: 45%;
   }
 
   .function {
@@ -659,9 +651,8 @@ height: auto;
     justify-content: flex-start;
   }
 
-  .function p{
+  .function p {
     color: red;
     margin-left: 20px;
-
   }
 }
