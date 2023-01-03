@@ -87,6 +87,10 @@ body {
     margin-right: 10px;
   }
 
+  .btn img {
+    width: 15%;
+  }
+
   .main div img {
     margin-left: 5%;
     filter: brightness(0) invert(1);
@@ -473,7 +477,7 @@ body {
     padding: 10px;
     font-size: 74%;
     gap: 12px;
-    width: 45%;
+    width: 50%;
     height: auto;
   }
 
@@ -506,6 +510,10 @@ body {
     justify-content: space-evenly;
     margin-top: 20px;
     width: 70%;
+  }
+
+  .blur {
+    filter: blur(20px);
   }
 
   .Socials img:hover {
@@ -637,27 +645,9 @@ body {
     justify-content: space-between;
   }
 
-  .btn button {
-    width: 50%;
-  }
-
-  .btn img {
-    width: 15%;
-  }
-
   .star {
     top: 0;
     transform: scale(1);
     visibility: visible;
   }
-
-  .blur {
-    filter: blur(20px);
-  }
-
-  .close {
-    display: none;
-  }
-   
-  
 }

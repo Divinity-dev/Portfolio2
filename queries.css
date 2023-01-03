@@ -361,6 +361,12 @@
     display: flex;
   }
 
+  .to-do div li {
+    margin-right: 20px;
+    padding: 20px, 10px;
+    border: 1px solid #000;
+  }
+
   .content1 div ul li {
     display: flex;
     flex-direction: row;
@@ -672,7 +678,6 @@
     line-height: 44px;
     position: absolute;
     top: 10px;
-    /* left: 0; */
     color: #172b4d;
   }
 
@@ -685,12 +690,6 @@
     display: flex;
     margin-bottom: 30px;
     margin-top: 50px;
-  }
-
-  .to-do div li {
-    margin-right: 20px;
-    padding: 20px, 10px;
-    border: 1px solid #000;
   }
 
   .drop {
