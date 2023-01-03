@@ -40,11 +40,6 @@
     margin-top: 10px;
   }
 
-  /* .content1 img {
-    width: 684px;
-    height: 448px;
-  } */
-
   .bulletpoint img {
     width: 18px;
     height: 18px;
@@ -339,6 +334,15 @@
     margin-right: 20px;
   }
 
+  .to-do div li {
+    margin-right: 20px;
+    padding: 30px, 20px;
+    padding-top: 10px;
+    border: 1px solid #000;
+    width: 96px;
+    font-size: 15px;
+  }
+
   .cards div ul li {
     width: 95px;
     font-family: "Inter", sans-serif;
@@ -359,12 +363,6 @@
 
   .cards div ul {
     display: flex;
-  }
-
-  .to-do div li {
-    margin-right: 20px;
-    padding: 20px, 10px;
-    border: 1px solid #000;
   }
 
   .content1 div ul li {
@@ -537,8 +535,9 @@
   }
 
   .btn button {
-    width: 60%;
     margin-right: 20px;
+    padding: 12px;
+    width: 159px;
   }
 
   .contact div button {
@@ -641,6 +640,7 @@
 
   .pop-up {
     width: 90%;
+    height: 631px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -653,7 +653,7 @@
     transform: scale(0.1);
     visibility: hidden;
     background-color: #fff;
-    top: 0;
+    top: 2%;
   }
 
   .pop-container {
@@ -668,13 +668,13 @@
 
   .to-do h2 {
     margin-bottom: 40px;
-    width: 60%;
+    width: 1056px;
     height: 40px;
     text-align: start;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 44px;
     position: absolute;
     top: 10px;
@@ -690,10 +690,12 @@
     display: flex;
     margin-bottom: 30px;
     margin-top: 50px;
+    width: 249px;
+    height: 40px;
   }
 
   .drop {
-    width: 5%;
+    width: 2%;
     height: auto;
     position: absolute;
     top: 10px;
@@ -702,12 +704,12 @@
 
   .ipsum {
     display: flex;
-    justify-content: space-between;
   }
 
   .pop {
     width: 659px;
     height: 448px;
+    margin-right: 20px;
   }
 
   .paragragh {
@@ -718,10 +720,11 @@
   .paragragh p {
     width: 99%;
     height: 336px;
+    text-align: left;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     color: #344563;
   }
@@ -732,6 +735,7 @@
     left: 0;
     display: flex;
     width: 76%;
+    justify-content: flex-start;
   }
 
   .star {

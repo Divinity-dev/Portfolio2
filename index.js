@@ -84,3 +84,78 @@ document.getElementById('card-btn').onclick = () => {
   document.getElementById('site').href = projectprop[1].site;
   document.getElementById('source').href = projectprop[1].source;
 };
+
+document.getElementById('card-btn1').onclick = () => {
+  document.getElementById('pop-up').classList.add('star');
+  document.getElementById('main').classList.add('blur');
+  document.getElementById('Portfolio').classList.add('blur');
+  document.getElementById('About').classList.add('blur');
+  document.getElementById('Contact').classList.add('blur');
+  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
+  document.getElementById('pop').src = projectprop[1].URL;
+  document.getElementById('h2').innerHTML = projectprop[1].name;
+  document.getElementById('site').href = projectprop[1].site;
+  document.getElementById('source').href = projectprop[1].source;
+};
+
+document.getElementById('card-btn2').onclick = () => {
+  document.getElementById('pop-up').classList.add('star');
+  document.getElementById('main').classList.add('blur');
+  document.getElementById('Portfolio').classList.add('blur');
+  document.getElementById('About').classList.add('blur');
+  document.getElementById('Contact').classList.add('blur');
+  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
+  document.getElementById('pop').src = projectprop[1].URL;
+  document.getElementById('h2').innerHTML = projectprop[1].name;
+  document.getElementById('site').href = projectprop[1].site;
+  document.getElementById('source').href = projectprop[1].source;
+};
+
+document.getElementById('card-btn3').onclick = () => {
+  document.getElementById('pop-up').classList.add('star');
+  document.getElementById('main').classList.add('blur');
+  document.getElementById('Portfolio').classList.add('blur');
+  document.getElementById('About').classList.add('blur');
+  document.getElementById('Contact').classList.add('blur');
+  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
+  document.getElementById('pop').src = projectprop[1].URL;
+  document.getElementById('h2').innerHTML = projectprop[1].name;
+  document.getElementById('site').href = projectprop[1].site;
+  document.getElementById('source').href = projectprop[1].source;
+};
+
+document.getElementById('card-btn4').onclick = () => {
+  document.getElementById('pop-up').classList.add('star');
+  document.getElementById('main').classList.add('blur');
+  document.getElementById('Portfolio').classList.add('blur');
+  document.getElementById('About').classList.add('blur');
+  document.getElementById('Contact').classList.add('blur');
+  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
+  document.getElementById('pop').src = projectprop[1].URL;
+  document.getElementById('h2').innerHTML = projectprop[1].name;
+  document.getElementById('site').href = projectprop[1].site;
+  document.getElementById('source').href = projectprop[1].source;
+};
+
+document.getElementById('card-btn5').onclick = () => {
+  document.getElementById('pop-up').classList.add('star');
+  document.getElementById('main').classList.add('blur');
+  document.getElementById('Portfolio').classList.add('blur');
+  document.getElementById('About').classList.add('blur');
+  document.getElementById('Contact').classList.add('blur');
+  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
+  document.getElementById('pop').src = projectprop[1].URL;
+  document.getElementById('h2').innerHTML = projectprop[1].name;
+  document.getElementById('site').href = projectprop[1].site;
+  document.getElementById('source').href = projectprop[1].source;
+};
