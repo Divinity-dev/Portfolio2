@@ -15,12 +15,14 @@ body {
 @media screen and (max-width: 767px) {
   nav {
     position: fixed;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 50px 10px 10px 10px;
     width: 100%;
     height: 92px;
     background-color: #3c3a39;
+    z-index: 1;
     z-index: 1;
   }
 
@@ -73,6 +75,12 @@ body {
 
   img:hover {
     transform: scale(1.02);
+  }
+
+  .dropdown img {
+    width: 16px;
+    height: 30px;
+    margin-right: 10px;
   }
 
   .main div img {
@@ -492,7 +500,7 @@ body {
   }
 
   .icon {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -500,7 +508,6 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-
     color: #fff5e1;
     border-bottom: 1px solid #6f6c6b;
   }
@@ -541,7 +548,6 @@ body {
   .close {
     display: none;
   }
-
 
   .show {
     left: 0;
