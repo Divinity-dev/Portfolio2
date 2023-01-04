@@ -72,6 +72,10 @@
     margin-right: 10px;
   }
 
+  .btn img {
+    width: 30px;
+  }
+
   .data a img {
     filter: brightness(0) invert(1);
   }
@@ -83,6 +87,10 @@
 
   .john {
     width: 92px;
+  }
+
+  .btn a {
+    width: 60%;
   }
 
   nav a:hover {
@@ -646,7 +654,7 @@
     transform: scale(0.1);
     visibility: hidden;
     background-color: #fff;
-    top: 0;
+    top: 2%;
   }
 
   .pop-container {
@@ -683,10 +691,13 @@
   .to-do div {
     display: flex;
     margin-bottom: 30px;
+    margin-top: 50px;
+    width: 249px;
+    height: 40px;
   }
 
   .drop {
-    width: 5%;
+    width: 2%;
     height: auto;
     position: absolute;
     top: 10px;
@@ -695,7 +706,6 @@
 
   .ipsum {
     display: flex;
-    justify-content: space-between;
   }
 
   .pop {
@@ -725,6 +735,7 @@
     left: 0;
     display: flex;
     width: 76%;
+    justify-content: flex-start;
   }
 
   .star {

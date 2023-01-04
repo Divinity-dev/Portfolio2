@@ -5,6 +5,7 @@
   text-rendering: optimizeLegibility;
   transition: all 0.5;
   list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -85,6 +86,10 @@ body {
     width: 16px;
     height: 30px;
     margin-right: 10px;
+  }
+
+  .btn img {
+    width: 30px;
   }
 
   .main div img {
@@ -508,6 +513,10 @@ body {
     width: 70%;
   }
 
+  .blur {
+    filter: blur(20px);
+  }
+
   .Socials img:hover {
     color: rgba(15, 202, 231, 0.747);
   }
@@ -522,6 +531,7 @@ body {
   }
 
   .icon {
+    font-family: "Inter", sans-serif;
     font-family: "Inter", sans-serif;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -573,12 +583,14 @@ body {
     padding: 20px;
     width: 92%;
     position: fixed;
-    height: 85vh;
+    height: 718px;
     top: 0;
+    margin-top: 20px;
     transform: scale(0.1);
     visibility: hidden;
     background-color: #fff;
     z-index: 3;
+    font-size: 50%;
   }
 
   .to-do h2 {
@@ -612,12 +624,15 @@ body {
     width: 83%;
     height: 22%;
     margin-bottom: 30px;
+    position: absolute;
+    top: 100px;
+    margin-top: 20px;
   }
 
   .drop {
-    width: 10%;
+    width: 5%;
     position: absolute;
-    top: 30px;
+    top: 10px;
     right: 20px;
   }
 
@@ -635,16 +650,14 @@ body {
   .btn {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
   }
 
   .star {
     top: 0;
     transform: scale(1);
     visibility: visible;
-  }
-
-  .blur {
-    filter: blur(20px);
   }
 
   .function {
