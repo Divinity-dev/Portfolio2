@@ -72,6 +72,10 @@
     margin-right: 10px;
   }
 
+  .btn img {
+    width: 30px;
+  }
+
   .data a img {
     filter: brightness(0) invert(1);
   }
@@ -538,6 +542,12 @@
     margin-right: 20px;
     padding: 12px;
     width: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    gap: 12px;
+    height: 48px;
   }
 
   .contact div button {
