@@ -72,6 +72,10 @@
     margin-right: 10px;
   }
 
+  .btn img {
+    width: 30px;
+  }
+
   .data a img {
     filter: brightness(0) invert(1);
   }
@@ -83,6 +87,10 @@
 
   .john {
     width: 92px;
+  }
+
+  .btn a {
+    width: 60%;
   }
 
   nav a:hover {
@@ -330,6 +338,15 @@
     margin-right: 20px;
   }
 
+  .to-do div li {
+    margin-right: 20px;
+    padding: 30px, 20px;
+    padding-top: 10px;
+    border: 1px solid #000;
+    width: 96px;
+    font-size: 15px;
+  }
+
   .cards div ul li {
     width: 95px;
     font-family: "Inter", sans-serif;
@@ -521,6 +538,18 @@
     border: 2px solid rgba(15, 202, 231, 0.747);
   }
 
+  .btn button {
+    margin-right: 20px;
+    padding: 12px;
+    width: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    gap: 12px;
+    height: 48px;
+  }
+
   .contact div button {
     display: flex;
     flex-direction: row;
@@ -617,5 +646,114 @@
 
   .hide {
     width: 684px;
+  }
+
+  .pop-up {
+    width: 90%;
+    height: 631px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    padding: 20px;
+    position: fixed;
+    justify-content: center;
+    z-index: 3;
+    text-align: center;
+    margin-left: 80px;
+    transform: scale(0.1);
+    visibility: hidden;
+    background-color: #fff;
+    top: 2%;
+  }
+
+  .pop-container {
+    position: fixed;
+    top: 0;
+    height: 90vh;
+  }
+
+  .pop-h2 {
+    display: none;
+  }
+
+  .to-do h2 {
+    margin-bottom: 40px;
+    width: 1056px;
+    height: 40px;
+    text-align: start;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    position: absolute;
+    top: 10px;
+    color: #172b4d;
+  }
+
+  .to-do {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .to-do div {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 249px;
+    height: 40px;
+  }
+
+  .drop {
+    width: 2%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+
+  .ipsum {
+    display: flex;
+  }
+
+  .pop {
+    width: 659px;
+    height: 448px;
+    margin-right: 20px;
+  }
+
+  .paragragh {
+    width: 37%;
+    position: relative;
+  }
+
+  .paragragh p {
+    width: 99%;
+    height: 336px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 76%;
+    justify-content: flex-start;
+  }
+
+  .star {
+    transform: scale(1);
+    visibility: visible;
+  }
+
+  .blur {
+    filter: blur(20px);
   }
 }

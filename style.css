@@ -5,6 +5,13 @@
   text-rendering: optimizeLegibility;
   transition: all 0.5;
   list-style: none;
+  text-decoration: none;
+}
+
+body {
+  position: absolute;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -22,9 +29,8 @@
   nav a {
     text-decoration: none;
     color: #fff;
-    width: 77px;
-    height: 24px;
-    padding-top: 5px;
+    width: 21%;
+    padding-top: 1%;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -32,23 +38,33 @@
   }
 
   nav img {
-    padding-top: 12px;
+    padding-top: 3%;
   }
 
   .bulletpoint img {
-    width: 18px;
-    height: 18px;
-    margin-top: 15px;
-    margin-right: 5px;
+    width: 5%;
+    height: 5%;
+    margin-top: 4%;
+    margin-right: 1%;
   }
 
   .content1 img {
-    width: 327px;
-    height: 237px;
+    width: 87%;
+    height: 40%;
   }
 
   .Feature img {
-    margin-left: 185px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+  }
+
+  .menu a {
+    margin-top: 10%;
+  }
+
+  .btn a {
+    width: 45%;
   }
 
   nav a:hover {
@@ -56,8 +72,7 @@
   }
 
   .Socials img {
-    width: 18px;
-    height: 20px;
+    width: 100%;
   }
 
   .vector img {
@@ -74,8 +89,12 @@
     margin-right: 10px;
   }
 
+  .btn img {
+    width: 30px;
+  }
+
   .main div img {
-    margin-left: 20px;
+    margin-left: 5%;
     filter: brightness(0) invert(1);
   }
 
@@ -87,7 +106,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 24px;
+    padding: 20% 6%;
     gap: 12px;
     background-position: right;
     background-size: contain;
@@ -99,14 +118,14 @@
 
   .main-photo {
     position: absolute;
-    width: 100px;
+    width: 27%;
     right: 0;
     bottom: 0;
   }
 
   .main h1 {
-    width: 327px;
-    height: 124px;
+    width: 87%;
+    height: 21%;
     font-family: "crete round", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -117,8 +136,8 @@
   }
 
   .main h2 {
-    width: 327px;
-    height: 27px;
+    width: 87%;
+    height: 5%;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -130,8 +149,8 @@
   }
 
   .main p {
-    width: 327px;
-    height: 123px;
+    width: 87%;
+    height: 21%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -144,8 +163,8 @@
     background-color: #fff;
     width: 100%;
     display: grid;
-    grid-template-columns: 327px;
-    grid-template-rows: 237px, 386px, 386px, 386px, 386px, 386px, 386px;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%, 100%, 100%, 100%, 100%, 100%, 100%;
     padding: 60px 30px;
   }
 
@@ -156,7 +175,7 @@
   }
 
   .content1 h2 {
-    width: 327px;
+    width: 87%;
     margin-top: 20px;
     margin-bottom: 40px;
     font-family: "Crete Round", sans-serif;
@@ -169,7 +188,7 @@
   }
 
   .content1 h3 {
-    width: 327px;
+    width: 87%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -200,17 +219,25 @@
   .content1 div ul {
     display: flex;
     align-items: center;
-    width: 49px;
+    width: 13%;
     margin-bottom: 10px;
   }
 
   .properties li {
-    margin-left: 50px;
+    margin-left: 13%;
     text-align: center;
   }
 
+  .to-do li {
+    width: 85px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 13px;
+    border: 1px solid #dfe1e6;
+  }
+
   .About div li {
-    width: 114px;
+    width: 30%;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -254,8 +281,7 @@
     padding: 12px;
     gap: 10px;
     font-size: 15px;
-    width: 124px;
-    height: 48px;
+    width: 33%;
     color: #fff;
     background-color: #ff6b00;
   }
@@ -266,12 +292,11 @@
     background-position: center;
     padding-left: 10px;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10%;
   }
 
   .cards h2 {
-    width: 295px;
-    height: 81px;
+    width: 79%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -282,8 +307,7 @@
   }
 
   .cards p {
-    width: 295px;
-    height: 87px;
+    width: 79%;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -298,7 +322,7 @@
   }
 
   .About div h3 {
-    width: 164px;
+    width: 44%;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -310,7 +334,7 @@
   }
 
   .cards div ul li {
-    width: 92px;
+    width: 25%;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -336,7 +360,7 @@
   }
 
   .Feature h2 {
-    width: 327px;
+    width: 87%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -349,7 +373,7 @@
   }
 
   .Feature p {
-    width: 327px;
+    width: 87%;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -368,19 +392,23 @@
     align-items: center;
     padding: 12px;
     gap: 10px;
-    width: 161px;
+    width: 43%;
     font-size: 15px;
     background-color: #ff6b00;
     color: #fff;
+    margin-top: 10%;
+    margin-bottom: 50%;
   }
 
   .properties {
-    margin-left: 80px;
+    margin-left: 21%;
   }
 
   .Feature {
     margin-bottom: 70px;
     border-bottom: 1px solid #fff;
+    position: relative;
+    width: 100%;
   }
 
   .bulletpoint {
@@ -389,12 +417,12 @@
 
   .contact {
     width: 100%;
-    padding: 60px 30px;
+    padding: 40px 30px;
     background-color: #fff;
   }
 
   .contact h2 {
-    width: 327px;
+    width: 87%;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -410,7 +438,7 @@
   }
 
   form input {
-    width: 327px;
+    width: 87%;
     border: none;
     outline: none;
     border-bottom: 1px solid #dbd8d7;
@@ -423,8 +451,7 @@
   }
 
   .inputfield {
-    width: 327px;
-    height: 114px;
+    width: 87%;
     background-color: #fbf8f7;
     position: relative;
     border: none;
@@ -446,14 +473,24 @@
     line-height: 24px;
   }
 
+  .btn button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 17px;
+    gap: 12px;
+    width: 159px;
+    height: 48px;
+  }
+
   .contact div button {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px;
     gap: 10px;
-    width: 131px;
-    height: 48px;
+    width: 35%;
     margin-left: 100px;
     margin-top: 20px;
     background: #ff6b00;
@@ -475,6 +512,11 @@
     text-align: center;
     justify-content: space-evenly;
     margin-top: 20px;
+    width: 70%;
+  }
+
+  .blur {
+    filter: blur(20px);
   }
 
   .Socials img:hover {
@@ -483,8 +525,7 @@
 
   .line {
     background-color: #0d151e;
-    width: 134px;
-    height: 5px;
+    width: 36%;
     left: calc(50% - 134px / 2 - 0.5px);
     border-radius: 10px;
     margin-left: 100px;
@@ -493,12 +534,12 @@
 
   .icon {
     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     width: 100%;
-    height: 100px;
     display: flex;
     align-items: center;
     color: #fff5e1;
@@ -513,13 +554,13 @@
   .menu {
     position: fixed;
     left: -100%;
-    top: 65px;
+    top: 9%;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
     padding: 0 20px;
-    margin-top: 20px;
+    margin-top: 0;
     background-color: #3c3a39;
     z-index: 1;
   }
@@ -534,5 +575,101 @@
 
   .show {
     left: 0;
+  }
+
+  .pop-up {
+    display: flex;
+    flex-direction: column;
+    left: 3%;
+    padding: 20px;
+    width: 92%;
+    position: fixed;
+    height: 718px;
+    top: 0;
+    margin-top: 20px;
+    transform: scale(0.1);
+    visibility: hidden;
+    background-color: #fff;
+    z-index: 3;
+    font-size: 50%;
+  }
+
+  .to-do h2 {
+    display: none;
+  }
+
+  .to-do div {
+    width: 90%;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: auto;
+    margin-top: 10px;
+    line-height: 16px;
+    color: #3c3a39;
+    margin-bottom: 30px;
+  }
+
+  .pop-up h2 {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin-bottom: 30px;
+  }
+
+  .pop {
+    width: 90%;
+    height: 220px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 100px;
+    margin-top: 20px;
+  }
+
+  .drop {
+    width: 5%;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .ipsum p {
+    width: 90%;
+    position: absolute;
+    top: 350px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #344563;
+  }
+
+  .ipsum {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .star {
+    top: 0;
+    transform: scale(1);
+    visibility: visible;
   }
 }
