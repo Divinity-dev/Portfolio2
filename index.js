@@ -94,9 +94,9 @@ document.getElementById('card-btn').onclick = () => {
 };
 
 document.getElementById('submit-form').onsubmit = (e) => {
-  const email = document.getElementById('email').value;
-  if (email !== email.toLowerCase) {
+  const email = document.getElementById('name').value;
+  if (email !== email.toLowerCase()) {
     e.preventDefault();
-    document.getElementById('error-message').innerHTML = 'Email must be lowercase';
+    document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
   }
 };
