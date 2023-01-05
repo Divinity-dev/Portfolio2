@@ -339,12 +339,11 @@
   }
 
   .to-do div li {
-    margin-right: 20px;
-    padding: 30px, 20px;
-    padding-top: 10px;
-    border: 1px solid #000;
-    width: 96px;
-    font-size: 15px;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 1px solid #dfe1e6;
   }
 
   .cards div ul li {
@@ -539,15 +538,8 @@
   }
 
   .btn button {
+    width: 60%;
     margin-right: 20px;
-    padding: 12px;
-    width: 159px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 17px;
-    gap: 12px;
-    height: 48px;
   }
 
   .contact div button {
@@ -650,7 +642,6 @@
 
   .pop-up {
     width: 90%;
-    height: 631px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -678,16 +669,17 @@
 
   .to-do h2 {
     margin-bottom: 40px;
-    width: 1056px;
+    width: 60%;
     height: 40px;
     text-align: start;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 44px;
     position: absolute;
     top: 10px;
+    left: 0;
     color: #172b4d;
   }
 
@@ -719,7 +711,6 @@
   .pop {
     width: 659px;
     height: 448px;
-    margin-right: 20px;
   }
 
   .paragragh {
@@ -730,11 +721,10 @@
   .paragragh p {
     width: 99%;
     height: 336px;
-    text-align: left;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: #344563;
   }
@@ -755,5 +745,15 @@
 
   .blur {
     filter: blur(20px);
+  }
+
+  .function {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .function p {
+    color: red;
+    margin-left: 20px;
   }
 }
