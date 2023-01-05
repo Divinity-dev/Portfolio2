@@ -10,7 +10,8 @@
 
 body {
   position: absolute;
-  width: fit-content;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -36,10 +37,6 @@ body {
     font-size: 15px;
   }
 
-  .menu a {
-    margin-top: 10%;
-  }
-
   nav img {
     padding-top: 3%;
   }
@@ -60,6 +57,10 @@ body {
     position: absolute;
     right: 0%;
     bottom: 0;
+  }
+
+  .menu a {
+    margin-top: 10%;
   }
 
   .btn a {
@@ -228,9 +229,10 @@ body {
   }
 
   .to-do li {
+    width: 85px;
     margin-right: 10px;
     padding: 10px 10px;
-    font-size: 80%;
+    font-size: 13px;
     border: 1px solid #dfe1e6;
   }
 
@@ -476,10 +478,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    font-size: 74%;
+    font-size: 17px;
     gap: 12px;
-    width: 45%;
-    height: auto;
+    width: 159px;
+    height: 48px;
   }
 
   .contact div button {
@@ -531,7 +533,6 @@ body {
   }
 
   .icon {
-    font-family: "Inter", sans-serif;
     font-family: "Inter", sans-serif;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -598,31 +599,36 @@ body {
   }
 
   .to-do div {
-    width: auto;
+    width: 90%;
+    position: absolute;
+    top: 50px;
     display: flex;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: auto;
+    margin-top: 10px;
     line-height: 16px;
     color: #3c3a39;
     margin-bottom: 30px;
   }
 
   .pop-up h2 {
-    width: 76%;
+    width: 80%;
+    position: absolute;
+    top: 0;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 160%;
+    font-size: 32px;
     line-height: 44px;
     color: #172b4d;
     margin-bottom: 30px;
   }
 
   .pop {
-    width: 83%;
-    height: 22%;
+    width: 90%;
+    height: 220px;
     margin-bottom: 30px;
     position: absolute;
     top: 100px;
@@ -637,14 +643,21 @@ body {
   }
 
   .ipsum p {
-    width: auto;
+    width: 90%;
+    position: absolute;
+    top: 350px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 100%;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 20px;
     color: #344563;
+  }
+
+  .ipsum {
+    display: flex;
+    flex-direction: column;
   }
 
   .btn {
