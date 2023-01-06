@@ -456,6 +456,7 @@ body {
     position: relative;
     border: none;
     margin-top: 20px;
+    padding: 10px;
   }
 
   .inputfield:hover {

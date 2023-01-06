@@ -100,35 +100,34 @@ document.getElementById('submit-form').onsubmit = (e) => {
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
   }
 };
-
 const Name = document.getElementById('name');
 const Email = document.getElementById('email');
-const Text = document.getElementById('textarea');
+const Textmessage = document.getElementById('message');
 
-let data = { Name: '', Email: '', Text: '' };
+let data = { name: '', email: '', message: '' };
 
 const ToLocalStorage = () => {
   localStorage.setItem('Data', JSON.stringify(data));
 };
 
 Name.addEventListener('change', () => {
-  data.Name = Name.value;
+  data.name = Name.value;
   ToLocalStorage();
 });
 Email.addEventListener('change', () => {
-  data.Email = Email.value;
+  data.email = Email.value;
   ToLocalStorage();
 });
-Text.addEventListener('change', () => {
-  data.Text = Text.value;
+Textmessage.addEventListener('change', () => {
+  data.message = Textmessage.value;
   ToLocalStorage();
 });
 
 window.onload = () => {
-  if (localStorage.getItem('form_data') !== null) {
+  if (localStorage.getItem('Data') !== null) {
     data = JSON.parse(localStorage.getItem('Data'));
-    Name.value = data.Name;
-    Email.value = data.Email;
-    Text.value = data.Text;
+    Name.value = data.name;
+    Email.value = data.email;
+    Textmessage.value = data.message;
   }
 };
