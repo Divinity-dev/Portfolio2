@@ -94,9 +94,41 @@ document.getElementById('card-btn').onclick = () => {
 };
 
 document.getElementById('submit-form').onsubmit = (e) => {
-  const email = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
+  }
+};
+
+const Name = document.getElementById('name');
+const Email = document.getElementById('email');
+const Text = document.getElementById('textarea');
+
+let data = { Name: '', Email: '', Text: '' };
+
+const ToLocalStorage = () => {
+  localStorage.setItem('Data', JSON.stringify(data));
+};
+
+Name.addEventListener('change', () => {
+  data.Name = Name.value;
+  ToLocalStorage();
+});
+Email.addEventListener('change', () => {
+  data.Email = Email.value;
+  ToLocalStorage();
+});
+Text.addEventListener('change', () => {
+  data.Text = Text.value;
+  ToLocalStorage();
+});
+
+window.onload = () => {
+  if (localStorage.getItem('form_data') !== null) {
+    data = JSON.parse(localStorage.getItem('Data'));
+    Name.value = data.Name;
+    Email.value = data.Email;
+    Text.value = data.Text;
   }
 };
