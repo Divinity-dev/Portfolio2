@@ -94,9 +94,41 @@ document.getElementById('card-btn').onclick = () => {
 };
 
 document.getElementById('submit-form').onsubmit = (e) => {
-  const email = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
+  }
+};
+// localStorage
+const Name = document.getElementById('name');
+const Email = document.getElementById('email');
+const Textmessage = document.getElementById('message');
+
+let data = { name: '', email: '', message: '' };
+
+const ToLocalStorage = () => {
+  localStorage.setItem('Data', JSON.stringify(data));
+};
+
+Name.addEventListener('change', () => {
+  data.name = Name.value;
+  ToLocalStorage();
+});
+Email.addEventListener('change', () => {
+  data.email = Email.value;
+  ToLocalStorage();
+});
+Textmessage.addEventListener('change', () => {
+  data.message = Textmessage.value;
+  ToLocalStorage();
+});
+
+window.onload = () => {
+  if (localStorage.getItem('Data') !== null) {
+    data = JSON.parse(localStorage.getItem('Data'));
+    Name.value = data.name;
+    Email.value = data.email;
+    Textmessage.value = data.message;
   }
 };
