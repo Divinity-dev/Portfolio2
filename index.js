@@ -94,12 +94,12 @@ document.getElementById('card-btn').onclick = () => {
 };
 
 document.getElementById('submit-form').onsubmit = (e) => {
-  const email = document.getElementById('email').value;
+  const email = document.getElementById('email').;
   if (email !== email.toLowerCase()) {
     e.preventDefault();
     document.getElementById('error-message').innerHTML = 'Email must be in lowercase';
   }
-};
+;
 // localStorage
 const Name = document.getElementById('name');
 const Email = document.getElementById('email');
