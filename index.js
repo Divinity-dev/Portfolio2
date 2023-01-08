@@ -24,12 +24,6 @@ document.getElementById('toggle1').onclick = () => {
   document.getElementById('close-bar').classList.add('close');
 };
 
-document.getElementById('toggle1').onclick = () => {
-  document.getElementById('menu-bar').classList.remove('show');
-  document.getElementById('open-bar').classList.remove('close');
-  document.getElementById('close-bar').classList.add('close');
-};
-
 document.getElementById('toggle2').onclick = () => {
   document.getElementById('menu-bar').classList.remove('show');
   document.getElementById('open-bar').classList.remove('close');
