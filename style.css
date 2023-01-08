@@ -10,8 +10,7 @@
 
 body {
   position: absolute;
-  width: auto;
-  height: auto;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 767px) {
@@ -84,8 +83,8 @@ body {
   }
 
   .dropdown img {
-    width: 16px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
   }
 
@@ -555,7 +554,7 @@ body {
   .menu {
     position: fixed;
     left: -100%;
-    top: 9%;
+    top: 74px;
     display: flex;
     flex-direction: column;
     width: 100%;
