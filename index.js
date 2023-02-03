@@ -47,6 +47,24 @@ const projectprop = [
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://divinity-dev.github.io/Portfolio2/',
     source: 'https://github.com/Divinity-dev/Portfolio2',
+  },
+
+  {
+    name: 'capstone project',
+    Description: 'This is a website for a farmers summit',
+    URL: 'Images/farm.png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    site: 'https://divinity-dev.github.io/Capstone-project/',
+    source: 'https://github.com/Divinity-dev/Capstone-project',
+  },
+
+  {
+    name: 'To-do list',
+    Description: 'This is an app for planing daily tasks ',
+    URL: 'Images/todo.png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    site: ' https://divinity-dev.github.io/To-do-list/',
+    source: 'https://github.com/Divinity-dev/To-do-list',
   }];
 
 document.getElementById('portfolio-btn').onclick = () => {
@@ -93,13 +111,13 @@ document.getElementById('card-btn1').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
-  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('l1').innerHTML = projectprop[2].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[2].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[2].technologies[2];
+  document.getElementById('pop').src = projectprop[2].URL;
+  document.getElementById('h2').innerHTML = projectprop[2].name;
+  document.getElementById('site').href = projectprop[2].site;
+  document.getElementById('source').href = projectprop[2].source;
 };
 
 document.getElementById('card-btn2').onclick = () => {
@@ -108,13 +126,13 @@ document.getElementById('card-btn2').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
-  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('l1').innerHTML = projectprop[3].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[3].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[3].technologies[2];
+  document.getElementById('pop').src = projectprop[3].URL;
+  document.getElementById('h2').innerHTML = projectprop[3].name;
+  document.getElementById('site').href = projectprop[3].site;
+  document.getElementById('source').href = projectprop[3].source;
 };
 
 document.getElementById('card-btn3').onclick = () => {
@@ -161,7 +179,6 @@ document.getElementById('card-btn5').onclick = () => {
   document.getElementById('site').href = projectprop[1].site;
   document.getElementById('source').href = projectprop[1].source;
 };
-
 
 document.getElementById('submit-form').onsubmit = (e) => {
   const email = document.getElementById('email').value;

@@ -8,11 +8,6 @@
   text-decoration: none;
 }
 
-body {
-  position: absolute;
-  overflow-x: hidden;
-}
-
 @media screen and (max-width: 767px) {
   nav {
     position: fixed;
