@@ -19,7 +19,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
 
 To get a local copy up and running, follow these steps.
 
@@ -84,11 +84,10 @@ In order to run this project you need: A browser
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Divine Asiriuwa**
 
 - GitHub: [@Divinity-dev](https://github.com/Divinity-dev)
+- Linkedin: [https://www.linkedin.com/in/divinity20/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,7 +96,7 @@ In order to run this project you need: A browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> These are the features i will add to the project.
+> These are the features I will add to the project.
 
 - [ ] **[Desktop version]**
 - [ ] **[Contact section]**
