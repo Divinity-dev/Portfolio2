@@ -270,15 +270,20 @@
     background-size: cover;
     background-position: center;
     padding-left: 10px;
-    padding-top: 200px;
-    margin-top: 20px;
+    padding-top: 100px;
+    margin-top: 10px;
     width: 369px;
     height: 435px;
     margin-right: 10px;
   }
 
+  .cards button {
+    text-align: center;
+  }
+
   .card1 {
-    background-image: url(Images/bkg1.png);
+    background-image: url(Images/Farners\ summit.PNG);
+    height: 483px;
   }
 
   .card2 {
@@ -296,7 +301,9 @@
   }
 
   .card5 button {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .cards h2 {
