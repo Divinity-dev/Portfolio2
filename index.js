@@ -34,10 +34,10 @@ const projectprop = [
   {
     name: 'My portfolio',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/Img Placeholder.png',
+    URL: 'Images/Farners summit.PNG',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
-    site: 'https://divinity-dev.github.io/Portfolio2/',
-    source: 'https://github.com/Divinity-dev/Portfolio2',
+    site: 'https://divinity-dev.github.io/Capstone-project/',
+    source: 'https://github.com/Divinity-dev/Capstone-project',
   },
 
   {
