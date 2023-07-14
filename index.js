@@ -33,13 +33,29 @@ document.getElementById('toggle2').onclick = () => {
 const projectprop = [
   {
     name: 'My portfolio',
-    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
+    Description: 'This is a website for a farmers summit. A summit that brings together all the best hands in farming from both in and outside the country. It had workshops, tranings and several seminars.',
     URL: 'Images/Farners summit.PNG',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://divinity-dev.github.io/Capstone-project/',
     source: 'https://github.com/Divinity-dev/Capstone-project',
   },
 
+  {
+    name: 'My portfolio',
+    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
+    URL: 'Images/bkg1.png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    site: 'https://divinity-dev.github.io/Portfolio2/',
+    source: 'https://github.com/Divinity-dev/Portfolio2',
+  },
+  {
+    name: 'My portfolio',
+    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
+    URL: 'Images/bkg1.png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    site: 'https://divinity-dev.github.io/Portfolio2/',
+    source: 'https://github.com/Divinity-dev/Portfolio2',
+  },
   {
     name: 'My portfolio',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
