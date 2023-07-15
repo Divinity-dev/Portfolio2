@@ -51,7 +51,7 @@ const projectprop = [
   {
     name: 'Bookshop',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/Screenshot (9).png',
+    URL: 'Images/Bookshop.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://bookhubs.onrender.com/',
     source: 'https://github.com/Divinity-dev/Bookshop',
@@ -59,7 +59,7 @@ const projectprop = [
   {
     name: 'Reastaurant App',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/restaurant\ app.PNG',
+    URL: 'Images/restaurant app.PNG',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://divinity-dev.github.io/Restaurant-app/dist/',
     source: 'https://github.com/Divinity-dev/Restaurant-app',
@@ -67,7 +67,7 @@ const projectprop = [
   {
     name: 'To-do-list',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/Screenshot\ \(10\).png',
+    URL: 'Images/To-do.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://divinity-dev.github.io/To-do-list/dist/',
     source: 'https://github.com/Divinity-dev/To-do-list',
@@ -75,7 +75,7 @@ const projectprop = [
   {
     name: 'Bookstore App',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/Screenshot\ \(11\).png',
+    URL: 'Images/Bookstore.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://bookstore-9cvk.onrender.com',
     source: 'https://github.com/Divinity-dev/Bookstore',
@@ -193,7 +193,6 @@ document.getElementById('card-btn5').onclick = () => {
   document.getElementById('site').href = projectprop[5].site;
   document.getElementById('source').href = projectprop[5].source;
 };
-
 
 document.getElementById('submit-form').onsubmit = (e) => {
   const email = document.getElementById('email').value;
