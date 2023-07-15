@@ -266,37 +266,69 @@
   }
 
   .cards {
-    background-image: url(Images/Img\ Placeholderbackground\ image.png);
+    /* background-image: url(Images/Img\ Placeholderbackground\ image.png); */
     background-size: cover;
     background-position: center;
     padding-left: 10px;
-    padding-top: 200px;
-    margin-top: 20px;
+    padding-top: 100px;
+    margin-top: 10px;
     width: 369px;
     height: 435px;
     margin-right: 10px;
   }
 
+  .cards button {
+    text-align: center;
+  }
+
   .card1 {
-    background-image: url(Images/bkg1.png);
+    background-image: url(Images/Farners\ summit.PNG);
+    background-size: cover;
+    background-position: center;
+    height: 483px;
   }
 
   .card2 {
-    background-image: url(Images/bkg2.png);
+    background-image: url(Images/budget\ app.png);
+    background-size: cover;
+    background-position: center;
     height: 483px;
   }
 
   .card3 {
-    background-image: url(Images/bkg3.png);
+    background-image: url(Images/Bookshop.png);
+    background-size: cover;
+    background-position: center;
     height: 483px;
   }
 
   .card4 {
+    background-image: url(Images/restaurant\ app.PNG);
     height: 483px;
   }
 
+  .card6 {
+    background-image: url(Images/To-do.png);
+    background-size: cover;
+    background-position: center;
+    height: 483px;
+  }
+
+  .card7 {
+    background-image: url(Images/Bookstore.png);
+    background-size: cover;
+    background-position: 0;
+    height: 483px;
+  }
+
+  .cards:hover {
+    transform: scale(1.02);
+  }
+
   .card5 button {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .cards h2 {
@@ -371,6 +403,7 @@
 
   .cards div ul {
     display: flex;
+    margin-top: 300px;
   }
 
   .content1 div ul li {
