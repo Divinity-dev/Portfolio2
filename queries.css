@@ -266,7 +266,7 @@
   }
 
   .cards {
-    background-image: url(Images/Img\ Placeholderbackground\ image.png);
+    /* background-image: url(Images/Img\ Placeholderbackground\ image.png); */
     background-size: cover;
     background-position: center;
     padding-left: 10px;
@@ -283,21 +283,46 @@
 
   .card1 {
     background-image: url(Images/Farners\ summit.PNG);
+    background-size: cover;
+    background-position: center;
     height: 483px;
   }
 
   .card2 {
-    background-image: url(Images/bkg2.png);
+    background-image: url(Images/budget\ app.png);
+    background-size: cover;
+    background-position: center;
     height: 483px;
   }
 
   .card3 {
-    background-image: url(Images/bkg3.png);
+    background-image: url(Images/Screenshot\ \(9\).png);
+    background-size: cover;
+    background-position: center;
     height: 483px;
   }
 
   .card4 {
+    background-image: url(Images/restaurant\ app.PNG);
     height: 483px;
+  }
+
+  .card6 {
+    background-image: url(Images/Screenshot\ \(10\).png);
+    background-size: cover;
+    background-position: center;
+    height: 483px;
+  }
+
+  .card7 {
+    background-image: url(Images/Screenshot\ \(11\).png);
+    background-size: cover;
+    background-position:0vmax;
+    height: 483px;
+  }
+
+  .cards:hover {
+    transform: scale(1.02);
   }
 
   .card5 button {
@@ -374,6 +399,7 @@
 
   .cards div ul {
     display: flex;
+    margin-top: 300px;
   }
 
   .content1 div ul li {

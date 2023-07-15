@@ -32,7 +32,7 @@ document.getElementById('toggle2').onclick = () => {
 
 const projectprop = [
   {
-    name: 'My portfolio',
+    name: 'farmers summit',
     Description: 'This is a website for a farmers summit. A summit that brings together all the best hands in farming from both in and outside the country. It had workshops, tranings and several seminars.',
     URL: 'Images/Farners summit.PNG',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
@@ -41,28 +41,44 @@ const projectprop = [
   },
 
   {
-    name: 'My portfolio',
-    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/bkg1.png',
+    name: 'Budget App',
+    Description: 'This is a mobile budget app that categorizes, plans and gives th total spending',
+    URL: 'Images/budget app.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
-    site: 'https://divinity-dev.github.io/Portfolio2/',
-    source: 'https://github.com/Divinity-dev/Portfolio2',
+    site: 'https://budget-app-4qqw.onrender.com/',
+    source: 'https://github.com/Divinity-dev/Budget-App',
   },
   {
-    name: 'My portfolio',
+    name: 'Bookshop',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/bkg1.png',
+    URL: 'Images/Screenshot (9).png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
-    site: 'https://divinity-dev.github.io/Portfolio2/',
-    source: 'https://github.com/Divinity-dev/Portfolio2',
+    site: 'https://bookhubs.onrender.com/',
+    source: 'https://github.com/Divinity-dev/Bookshop',
   },
   {
-    name: 'My portfolio',
+    name: 'Reastaurant App',
     Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
-    URL: 'Images/bkg1.png',
+    URL: 'Images/restaurant\ app.PNG',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
-    site: 'https://divinity-dev.github.io/Portfolio2/',
-    source: 'https://github.com/Divinity-dev/Portfolio2',
+    site: 'https://divinity-dev.github.io/Restaurant-app/dist/',
+    source: 'https://github.com/Divinity-dev/Restaurant-app',
+  },
+  {
+    name: 'To-do-list',
+    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
+    URL: 'Images/Screenshot\ \(10\).png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    site: 'https://divinity-dev.github.io/To-do-list/dist/',
+    source: 'https://github.com/Divinity-dev/To-do-list',
+  },
+  {
+    name: 'Bookstore App',
+    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
+    URL: 'Images/Screenshot\ \(11\).png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    site: 'https://bookstore-9cvk.onrender.com',
+    source: 'https://github.com/Divinity-dev/Bookstore',
   }];
 
 document.getElementById('portfolio-btn').onclick = () => {
@@ -97,10 +113,10 @@ document.getElementById('card-btn').onclick = () => {
   document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
   document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
   document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('pop').src = projectprop[0].URL;
+  document.getElementById('h2').innerHTML = projectprop[0].name;
+  document.getElementById('site').href = projectprop[0].site;
+  document.getElementById('source').href = projectprop[0].source;
 };
 
 document.getElementById('card-btn1').onclick = () => {
@@ -124,13 +140,13 @@ document.getElementById('card-btn2').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
-  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('l1').innerHTML = projectprop[2].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[2].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[2].technologies[2];
+  document.getElementById('pop').src = projectprop[2].URL;
+  document.getElementById('h2').innerHTML = projectprop[2].name;
+  document.getElementById('site').href = projectprop[2].site;
+  document.getElementById('source').href = projectprop[2].source;
 };
 
 document.getElementById('card-btn3').onclick = () => {
@@ -139,13 +155,13 @@ document.getElementById('card-btn3').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
-  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('l1').innerHTML = projectprop[3].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[3].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[3].technologies[2];
+  document.getElementById('pop').src = projectprop[3].URL;
+  document.getElementById('h2').innerHTML = projectprop[3].name;
+  document.getElementById('site').href = projectprop[3].site;
+  document.getElementById('source').href = projectprop[3].source;
 };
 
 document.getElementById('card-btn4').onclick = () => {
@@ -154,13 +170,13 @@ document.getElementById('card-btn4').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
-  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('l1').innerHTML = projectprop[4].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[4].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[4].technologies[2];
+  document.getElementById('pop').src = projectprop[4].URL;
+  document.getElementById('h2').innerHTML = projectprop[4].name;
+  document.getElementById('site').href = projectprop[4].site;
+  document.getElementById('source').href = projectprop[4].source;
 };
 
 document.getElementById('card-btn5').onclick = () => {
@@ -169,13 +185,13 @@ document.getElementById('card-btn5').onclick = () => {
   document.getElementById('Portfolio').classList.add('blur');
   document.getElementById('About').classList.add('blur');
   document.getElementById('Contact').classList.add('blur');
-  document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
-  document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
-  document.getElementById('pop').src = projectprop[1].URL;
-  document.getElementById('h2').innerHTML = projectprop[1].name;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('l1').innerHTML = projectprop[5].technologies[0];
+  document.getElementById('l2').innerHTML = projectprop[5].technologies[1];
+  document.getElementById('l3').innerHTML = projectprop[5].technologies[2];
+  document.getElementById('pop').src = projectprop[5].URL;
+  document.getElementById('h2').innerHTML = projectprop[5].name;
+  document.getElementById('site').href = projectprop[5].site;
+  document.getElementById('source').href = projectprop[5].source;
 };
 
 
