@@ -347,7 +347,7 @@ body {
   }
 
   .card3 {
-    background-image: url(Images/Screenshot\ \(9\).png);
+    background-image: url(Images/Screenshot\ \(9\) .png);
     background-size: cover;
     background-position: center;
     height: 483px;
@@ -359,16 +359,16 @@ body {
   }
 
   .card6 {
-    background-image: url(Images/Screenshot\ \(10\).png);
+    background-image: url(Images/Screenshot\ \(10\) .png);
     background-size: cover;
     background-position: center;
     height: 483px;
   }
 
   .card7 {
-    background-image: url(Images/Screenshot\ \(11\).png);
+    background-image: url(Images/Screenshot\ \(11\) .png);
     background-size: cover;
-    background-position:0vmax;
+    background-position: 0;
     height: 483px;
   }
 
