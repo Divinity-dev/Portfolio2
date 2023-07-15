@@ -381,6 +381,10 @@ body {
     color: #f4f5f7;
   }
 
+  .Resume {
+    color: #fff;
+  }
+
   button:hover {
     border: 2px solid rgba(15, 202, 231, 0.747);
   }
