@@ -158,6 +158,7 @@
   .main h2 {
     width: 566px;
     height: 24px;
+    margin-bottom: 10px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -282,7 +283,7 @@
   }
 
   .card1 {
-    background-image: url(Images/Farners\ summit.PNG);
+    background-image: url(Images/farmers-summit.png);
     background-size: cover;
     background-position: center;
     height: 483px;
@@ -296,14 +297,14 @@
   }
 
   .card3 {
-    background-image: url(Images/Bookshop.png);
+    background-image: url(Images/bookshop.png);
     background-size: cover;
     background-position: center;
     height: 483px;
   }
 
   .card4 {
-    background-image: url(Images/restaurant\ app.PNG);
+    background-image: url(Images/restaurant.png);
     height: 483px;
   }
 

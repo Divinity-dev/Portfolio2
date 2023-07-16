@@ -333,7 +333,7 @@ body {
   }
 
   .card1 {
-    background-image: url(Images/Farners\ summit.PNG);
+    background-image: url(Images/farmers-summit.png);
     background-size: cover;
     background-position: center;
     height: 483px;
@@ -347,14 +347,14 @@ body {
   }
 
   .card3 {
-    background-image: url(Images/Bookshop.png);
+    background-image: url(Images/bookshop.png);
     background-size: cover;
     background-position: center;
     height: 483px;
   }
 
   .card4 {
-    background-image: url(Images/restaurant\ app.PNG);
+    background-image: url(Images/restaurant.png);
     height: 483px;
   }
 

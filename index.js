@@ -34,7 +34,7 @@ const projectprop = [
   {
     name: 'farmers summit',
     Description: 'This is a website for a farmers summit. A summit that brings together all the best hands in farming from both in and outside the country. It had workshops, tranings and several seminars.',
-    URL: 'Images/Farners summit.PNG',
+    URL: 'Images/farmers-summit.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://divinity-dev.github.io/Capstone-project/',
     source: 'https://github.com/Divinity-dev/Capstone-project',
@@ -43,7 +43,7 @@ const projectprop = [
   {
     name: 'Budget App',
     Description: 'This is a mobile budget app that categorizes, plans and gives th total spending',
-    URL: 'Images/budget app.png',
+    URL: 'Images/budget\ app.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://budget-app-4qqw.onrender.com/',
     source: 'https://github.com/Divinity-dev/Budget-App',
@@ -51,7 +51,7 @@ const projectprop = [
   {
     name: 'Bookshop',
     Description: 'This is a mobile app that displays a collection fo books from an API. Details about each book can be gotten by clicking on each book and there is a searh filter.',
-    URL: 'Images/Bookshop.png',
+    URL: 'Images/bookshop.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://bookhubs.onrender.com/',
     source: 'https://github.com/Divinity-dev/Bookshop',
@@ -59,7 +59,7 @@ const projectprop = [
   {
     name: 'Reastaurant App',
     Description: 'This is an application that showcases a list of healthy meals to clients. A client could comment and like a meal.',
-    URL: 'Images/restaurant app.PNG',
+    URL: 'Images/restaurant.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://divinity-dev.github.io/Restaurant-app/dist/',
     source: 'https://github.com/Divinity-dev/Restaurant-app',
