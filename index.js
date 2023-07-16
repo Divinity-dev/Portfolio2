@@ -129,7 +129,7 @@ document.getElementById('card-btn1').onclick = () => {
   document.getElementById('Contact').classList.add('blur');
   document.getElementById('l1').innerHTML = projectprop[1].technologies[0];
   document.getElementById('l2').innerHTML = projectprop[1].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[1].technologies[2];
+  document.getElementById('l3').innerHTML = projectprop[1].technologies[4];
   document.getElementById('pop').src = projectprop[1].URL;
   document.getElementById('h2').innerHTML = projectprop[1].name;
   document.getElementById('paragragh').innerHTML = projectprop[1].Description;
