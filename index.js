@@ -51,7 +51,7 @@ const projectprop = [
   {
     name: 'Bookshop',
     Description: 'This is a mobile app that displays a collection fo books from an API. Details about each book can be gotten by clicking on each book and there is a searh filter.',
-    URL: 'Images/bookshop.png',
+    URL: 'Images/Bookshop.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails', 'React/redux'],
     site: 'https://bookhubs.onrender.com/',
     source: 'https://github.com/Divinity-dev/Bookshop',
