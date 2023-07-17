@@ -65,12 +65,12 @@ const projectprop = [
     source: 'https://github.com/Divinity-dev/Restaurant-app',
   },
   {
-    name: 'To-do-list',
-    Description: 'This is an app that helps to plan day to day activities and keep track of which activity has been executed. An activity could be remove or added based on whether it is completed.',
-    URL: 'Images/To-do.png',
-    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
-    site: 'https://divinity-dev.github.io/To-do-list/dist/',
-    source: 'https://github.com/Divinity-dev/To-do-list',
+    name: 'SpaceX',
+    Description: 'This is an app that displays a list of available rockets. A user can book a rocket for a mission. Each rocket already booked and missions reserved can be seen in a different page.',
+    URL: 'Images/Rockets.png',
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails', 'React/redux'],
+    site: 'https://rockets-ujh2.onrender.com/',
+    source: 'https://github.com/Divinity-dev/React_group_capstone_project',
   },
   {
     name: 'Bookstore App',
@@ -177,7 +177,7 @@ document.getElementById('card-btn4').onclick = () => {
   document.getElementById('Contact').classList.add('blur');
   document.getElementById('l1').innerHTML = projectprop[4].technologies[0];
   document.getElementById('l2').innerHTML = projectprop[4].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[4].technologies[2];
+  document.getElementById('l3').innerHTML = projectprop[4].technologies[5];
   document.getElementById('pop').src = projectprop[4].URL;
   document.getElementById('h2').innerHTML = projectprop[4].name;
   document.getElementById('paragragh').innerHTML = projectprop[4].Description;
