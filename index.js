@@ -93,8 +93,16 @@ document.getElementById('portfolio-btn').onclick = () => {
   document.getElementById('pop').src = projectprop[0].URL;
   document.getElementById('h2').innerHTML = projectprop[0].name;
   document.getElementById('paragragh').innerHTML = projectprop[0].Description;
-  document.getElementById('site').href = projectprop[0].site;
-  document.getElementById('source').href = projectprop[0].source;
+  // document.getElementById('site').href = projectprop[0].site;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[0].site, '_blank');
+  };
+  // document.getElementById('source').href = projectprop[0].source;
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[0].source, '_blank');
+  };
 };
 
 document.getElementById('close-page').onclick = () => {
@@ -117,8 +125,16 @@ document.getElementById('card-btn').onclick = () => {
   document.getElementById('pop').src = projectprop[0].URL;
   document.getElementById('h2').innerHTML = projectprop[0].name;
   document.getElementById('paragragh').innerHTML = projectprop[0].Description;
-  document.getElementById('site').href = projectprop[0].site;
-  document.getElementById('source').href = projectprop[0].source;
+  // document.getElementById('site').href = projectprop[0].site;
+  // document.getElementById('source').href = projectprop[0].source;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[0].site, '_blank');
+  };
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[0].source, '_blank');
+  };
 };
 
 document.getElementById('card-btn1').onclick = () => {
@@ -133,8 +149,16 @@ document.getElementById('card-btn1').onclick = () => {
   document.getElementById('pop').src = projectprop[1].URL;
   document.getElementById('h2').innerHTML = projectprop[1].name;
   document.getElementById('paragragh').innerHTML = projectprop[1].Description;
-  document.getElementById('site').href = projectprop[1].site;
-  document.getElementById('source').href = projectprop[1].source;
+  // document.getElementById('site').href = projectprop[1].site;
+  // document.getElementById('source').href = projectprop[1].source;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[1].site, '_blank');
+  };
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[1].source, '_blank');
+  };
 };
 
 document.getElementById('card-btn2').onclick = () => {
@@ -149,8 +173,16 @@ document.getElementById('card-btn2').onclick = () => {
   document.getElementById('pop').src = projectprop[2].URL;
   document.getElementById('h2').innerHTML = projectprop[2].name;
   document.getElementById('paragragh').innerHTML = projectprop[2].Description;
-  document.getElementById('site').href = projectprop[2].site;
-  document.getElementById('source').href = projectprop[2].source;
+  // document.getElementById('site').href = projectprop[2].site;
+  // document.getElementById('source').href = projectprop[2].source;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[2].site, '_blank');
+  };
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[2].source, '_blank');
+  };
 };
 
 document.getElementById('card-btn3').onclick = () => {
@@ -165,8 +197,16 @@ document.getElementById('card-btn3').onclick = () => {
   document.getElementById('pop').src = projectprop[3].URL;
   document.getElementById('h2').innerHTML = projectprop[3].name;
   document.getElementById('paragragh').innerHTML = projectprop[3].Description;
-  document.getElementById('site').href = projectprop[3].site;
-  document.getElementById('source').href = projectprop[3].source;
+  // document.getElementById('site').href = projectprop[3].site;
+  // document.getElementById('source').href = projectprop[3].source;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[3].site, '_blank');
+  };
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[3].source, '_blank');
+  };
 };
 
 document.getElementById('card-btn4').onclick = () => {
@@ -181,8 +221,16 @@ document.getElementById('card-btn4').onclick = () => {
   document.getElementById('pop').src = projectprop[4].URL;
   document.getElementById('h2').innerHTML = projectprop[4].name;
   document.getElementById('paragragh').innerHTML = projectprop[4].Description;
-  document.getElementById('site').href = projectprop[4].site;
-  document.getElementById('source').href = projectprop[4].source;
+  // document.getElementById('site').href = projectprop[4].site;
+  // document.getElementById('source').href = projectprop[4].source;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[4].site, '_blank');
+  };
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[4].source, '_blank');
+  };
 };
 
 document.getElementById('card-btn5').onclick = () => {
@@ -197,8 +245,16 @@ document.getElementById('card-btn5').onclick = () => {
   document.getElementById('pop').src = projectprop[5].URL;
   document.getElementById('h2').innerHTML = projectprop[5].name;
   document.getElementById('paragragh').innerHTML = projectprop[5].Description;
-  document.getElementById('site').href = projectprop[5].site;
-  document.getElementById('source').href = projectprop[5].source;
+  // document.getElementById('site').href = projectprop[5].site;
+  // document.getElementById('source').href = projectprop[5].source;
+  document.getElementById('site').onclick = () => {
+    // Code for opening project site
+    window.open(projectprop[5].site, '_blank');
+  };
+  document.getElementById('source').onclick = () => {
+    // Code for opening project source code
+    window.open(projectprop[5].source, '_blank');
+  };
 };
 
 document.getElementById('submit-form').onsubmit = (e) => {

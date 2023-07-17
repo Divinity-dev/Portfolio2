@@ -451,6 +451,8 @@
   .grid-container {
     display: flex;
     width: 100%;
+    justify-content: center;
+    margin-left: 50px;
   }
 
   .Feature h2 {
