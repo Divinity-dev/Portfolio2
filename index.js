@@ -43,7 +43,7 @@ const projectprop = [
   {
     name: 'Budget App',
     Description: 'This is a mobile budget app that categorizes, plans and gives th total spending',
-    URL: 'Images/budget\ app.png',
+    URL: 'Images/budget.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://budget-app-4qqw.onrender.com/',
     source: 'https://github.com/Divinity-dev/Budget-App',
@@ -52,7 +52,7 @@ const projectprop = [
     name: 'Bookshop',
     Description: 'This is a mobile app that displays a collection fo books from an API. Details about each book can be gotten by clicking on each book and there is a searh filter.',
     URL: 'Images/bookshop.png',
-    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
+    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails', 'React/redux'],
     site: 'https://bookhubs.onrender.com/',
     source: 'https://github.com/Divinity-dev/Bookshop',
   },
@@ -145,7 +145,7 @@ document.getElementById('card-btn2').onclick = () => {
   document.getElementById('Contact').classList.add('blur');
   document.getElementById('l1').innerHTML = projectprop[2].technologies[0];
   document.getElementById('l2').innerHTML = projectprop[2].technologies[1];
-  document.getElementById('l3').innerHTML = projectprop[2].technologies[2];
+  document.getElementById('l3').innerHTML = projectprop[2].technologies[5];
   document.getElementById('pop').src = projectprop[2].URL;
   document.getElementById('h2').innerHTML = projectprop[2].name;
   document.getElementById('paragragh').innerHTML = projectprop[2].Description;

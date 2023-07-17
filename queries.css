@@ -276,6 +276,7 @@
     width: 369px;
     height: 435px;
     margin-right: 10px;
+    box-shadow: 4px 4px 4px 4px #e3c2c2;
   }
 
   .cards button {
@@ -290,7 +291,7 @@
   }
 
   .card2 {
-    background-image: url(Images/budget\ app.png);
+    background-image: url(Images/budget.png);
     background-size: cover;
     background-position: center;
     height: 483px;
