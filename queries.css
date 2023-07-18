@@ -291,9 +291,9 @@
   }
 
   .card2 {
-    background-image: url(Images/budget.png);
+    background-image: url(Images/budgetApp.png);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     height: 483px;
   }
 

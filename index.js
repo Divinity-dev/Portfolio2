@@ -43,7 +43,7 @@ const projectprop = [
   {
     name: 'Budget App',
     Description: 'This is a mobile budget app that categorizes, plans and gives th total spending',
-    URL: 'Images/budget.png',
+    URL: 'Images/budgetApp.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://budget-app-4qqw.onrender.com/',
     source: 'https://github.com/Divinity-dev/Budget-App',
@@ -51,7 +51,7 @@ const projectprop = [
   {
     name: 'Bookshop',
     Description: 'This is a mobile app that displays a collection fo books from an API. Details about each book can be gotten by clicking on each book and there is a searh filter.',
-    URL: 'Images/Bookshop.png',
+    URL: 'Images/Screenshot (21).png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails', 'React/redux'],
     site: 'https://bookhubs.onrender.com/',
     source: 'https://github.com/Divinity-dev/Bookshop',
