@@ -73,7 +73,7 @@
   }
 
   .btn img {
-    width: 30px;
+    width: 20px;
   }
 
   .data a img {
@@ -772,8 +772,8 @@
   }
 
   .pop {
-    width: 659px;
-    height: 448px;
+    width: 70%;
+    /* height: 448px; */
     margin-right: 20px;
   }
 
@@ -783,7 +783,7 @@
   }
 
   .paragragh p {
-    width: 99%;
+    width: 80%;
     height: 336px;
     text-align: left;
     font-family: "Inter", sans-serif;
@@ -799,7 +799,7 @@
     bottom: 0;
     left: 0;
     display: flex;
-    width: 76%;
+    width: 90%;
     justify-content: flex-start;
   }
 
@@ -840,3 +840,7 @@
 h1 {
   animation: fade 2s infinite;
 }
+
+/* .ipsum img {
+  width: 70%;
+} */
