@@ -236,11 +236,12 @@ body {
   }
 
   .to-do li {
-    width: 85px;
+    width: 95px;
     margin-right: 10px;
     padding: 10px 10px;
     font-size: 13px;
     border: 1px solid #dfe1e6;
+    text-align: center;
   }
 
   .About div li {
