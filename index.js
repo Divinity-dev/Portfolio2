@@ -291,8 +291,8 @@ Textmessage.addEventListener('change', () => {
 window.onload = () => {
   if (localStorage.getItem('Data') !== null) {
     data = JSON.parse(localStorage.getItem('Data'));
-    Name.value = data.name;
-    Email.value = data.email;
-    Textmessage.value = data.message;
+    Name.value = data.name || '';
+    Email.value = data.email || '';
+    Textmessage.value = data.message || '';
   }
 };
