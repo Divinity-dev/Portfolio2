@@ -240,6 +240,10 @@
     font-family: "Inter", sans-serif;
   }
 
+  .res {
+    width: 200px;
+  }
+
   .content1 button {
     display: flex;
     flex-direction: row;
@@ -309,7 +313,11 @@
     height: 483px;
   }
 
-  .divine{
+  /* .res {
+    width: 40px;
+  } */
+
+  .divine {
     color: #f55800;
   }
 
@@ -815,9 +823,17 @@
 }
 
 @keyframes fade {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 h1 {

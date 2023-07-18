@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizelegibility;
   transition: all 0.5;
   list-style: none;
   text-decoration: none;
@@ -131,10 +131,10 @@ body {
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
-    color: #fff;;
+    color: #fff;
   }
 
-  .divine{
+  .divine {
     color: #f55800;
   }
 
@@ -169,6 +169,10 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 100%, 100%, 100%, 100%, 100%, 100%, 100%;
     padding: 60px 30px;
+  }
+
+  .grid-container {
+    margin-top: 30px;
   }
 
   .content1 {
@@ -275,6 +279,10 @@ body {
     border: none;
     width: 100%;
     font-family: "Inter", sans-serif;
+  }
+
+  .res {
+    width: 50%;
   }
 
   .content1 button {
@@ -581,7 +589,6 @@ body {
   }
 
   .icon {
-    font-family: "Inter", sans-serif;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
