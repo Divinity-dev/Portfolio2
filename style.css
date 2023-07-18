@@ -131,7 +131,11 @@ body {
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
-    color: #ff6b00;
+    color: #fff;;
+  }
+
+  .divine{
+    color: #f55800;
   }
 
   .main h2 {

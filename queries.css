@@ -151,7 +151,7 @@
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    color: #f55800;
+    color: #fff;
     margin-bottom: 20px;
   }
 
@@ -307,6 +307,10 @@
   .card4 {
     background-image: url(Images/restaurant.png);
     height: 483px;
+  }
+
+  .divine{
+    color: #f55800;
   }
 
   .card6 {
