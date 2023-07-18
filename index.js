@@ -74,7 +74,7 @@ const projectprop = [
   },
   {
     name: 'Bookstore App',
-    Description: 'This is a simple portfolio website detailing  my skills, previous jobs and coding languages',
+    Description: 'This is an app where you can add, delete and view a list of books. It posts books and reviews them from an API',
     URL: 'Images/Bookstore.png',
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby on rails'],
     site: 'https://bookstore-9cvk.onrender.com',
